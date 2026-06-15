@@ -1,0 +1,115 @@
+title = "软宝宝文档"
+# 或者自定义域名
+baseURL = "http://localhost:1313/"
+canonifyURLs = false
+# ❌ 确保此项为 false 或删除（如果是 true，子路径引用会乱套）
+relativeURLs = false
+disableAliases = true
+disableHugoGeneratorInject = true
+# disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+languageCode = "zh-CN"
+rssLimit = 10
+summarylength = 20 # 70 (default)
+
+# Multilingual
+defaultContentLanguage = "zh"
+disableLanguages = ["de", "nl"]
+defaultContentLanguageInSubdir = false
+
+copyRight = "Copyright (c) 2020-2026 据吉网"
+[params]
+  # Some themes use a logo parameter to put an image next to the title
+  logo = "/images/rzcode_icon.png" # Path to your icon in the /static/images/ folder
+[languages.zh]
+  languageName = "Chinese"
+  contentDir = "content" # 或者是 "content/zh"
+  weight = 10
+  # 确保这个参数存在，Doks 的搜索依赖它
+  [languages.zh.params]
+    title = "据吉文档"
+    description = "AI数据标注一站式服务平台使用手册"
+[build.buildStats]
+  enable = true
+
+[outputs]
+  home = ["html", "rss", "sitemap", "searchIndex", "llms"]
+  page = ["html", "markdown"]
+  section = ["html", "rss", "sitemap"]
+  taxonomy = ["html", "rss", "sitemap"]
+  term = ["html", "rss", "sitemap"]
+
+[outputFormats.searchIndex]
+  mediaType = "application/json"
+  baseName = "search-index"
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.markdown]
+  baseName = "index"
+  isHTML = false
+  isPlainText = true
+  mediaType = "text/markdown"
+
+[outputFormats.llms]
+  baseName = "llms"
+  isHTML = false
+  isPlainText = true
+  mediaType = "text/plain"
+
+# Add output format for section sitemap.xml
+[outputFormats.sitemap]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  isHTML = false
+  isPlainText = true
+  noUgly = true
+  rel  = "sitemap"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[caches]
+  [caches.getresource]
+    dir = ":cacheDir/:project"
+    maxAge = -1 # "30m"
+
+[taxonomies]
+  contributor = "contributors"
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[minify.tdewolff.html]
+  keepComments = true # If set to false, build signatures are removed
+  keepWhitespace = false
+
+[pagination]
+  pagerSize = 10
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+      name = "categories"
+      weight = 100
+    [[related.indices]]
+      name = "tags"
+      weight = 80
+    [[related.indices]]
+      name = "date"
+      weight = 10
+
+[imaging]
+  anchor = "Center"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 85
+  resampleFilter = "Lanczos"

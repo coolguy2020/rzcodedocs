@@ -1,0 +1,67 @@
+# --- 404 页面 ---
+[404_text]
+other = "您访问的资源路径不存在或已被移动，请核对数据节点地址。"
+
+[404_title]
+other = "页面未找到 :("
+
+# --- 导航与浏览 ---
+[browse]
+other = "浏览"
+
+[home]
+other = "首页"
+
+[on_this_page]
+other = "本页目录"
+
+[get_started]
+other = "快速入门"
+
+# --- 翻页控制 ---
+[chapter_next]
+other = "下一篇"
+
+[chapter_previous]
+other = "上一篇"
+
+# --- 协作与更新 ---
+[edit_page]
+other = "在 GitHub 上编辑此页"
+
+[last_updated]
+other = "最后更新于"
+
+# --- 阅读量化 ---
+[in]
+other = "收录于"
+
+[by]
+other = "作者"
+
+[minute]
+one = "分钟"
+other = "分钟"
+
+[reading_time]
+other = "预计阅读时间"
+
+# --- 搜索功能 (FlexSearch) ---
+[search_title]
+other = "搜索文档"
+
+[search_placeholder]
+other = "搜索标注规范、数据集格式或 API..."
+
+[search_loading]
+other = "正在加载搜索索引..."
+
+[search_no_recent]
+other = "暂无搜索记录"
+
+[search_no_results]
+other = "未找到相关结果，请尝试更换关键词"
+
+# --- 媒体支持 ---
+[video_unsupported]
+other = "您的浏览器不支持内嵌视频播放。别担心，您可以 <a href=\"{{ .RelPermalink }}\">直接下载</a> 视频后使用本地播放器查看。"

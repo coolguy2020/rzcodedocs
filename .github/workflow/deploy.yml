@@ -1,0 +1,49 @@
+name: 🚀 自动构建并部署 Doks 文档
+
+on:
+  push:
+    branches:
+      - main  # 如果您的主分支名是 master，请改为 master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # ✨ 核心修正：即便 UI 无法选择，这里显式声明也可以生效
+    permissions:
+      contents: write   # 授予推送代码到 gh-pages 分支的权限
+      pages: write      # 授予 Pages 服务的管理权限（可选）
+      id-token: write   # 身份验证权限（可选）
+    # ✨ 关键修正：设置默认的工作目录
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    defaults:
+      run:
+        working-directory: ./
+
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: 🛠️ 安装 Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: 📦 安装 Node.js 依赖
+        # 有了上面的 defaults，这里会自动在 ./doks 下运行
+        run: npm install
+
+      - name: 🏗️ 执行构建
+        # 增加 --gc (垃圾回收) 确保清理旧资源
+        run: npm run build -- --gc --minify
+
+      - name: 🌐 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 注意：如果构建生成的 public 在 doks 目录下，这里要写成 ./doks/public
+          publish_dir: ./public

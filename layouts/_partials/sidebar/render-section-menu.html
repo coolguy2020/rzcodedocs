@@ -1,0 +1,72 @@
+{{- /*
+Based on: https://discourse.gohugo.io/t/automated-nested-menus/42835/2
+
+Local override for Doks sidebar rendering.
+This variant guards against menu entries that do not resolve to a page
+(e.g. language-specific pageRef mismatches), preventing build-time nil pointer errors.
+*/}}
+
+{{- /* Configure. */}}
+{{- $skipHome := true }}
+
+{{- /* Get parameters. */}}
+{{- $currentPage := .currentPage }}
+{{- $nodes := .nodes }}
+
+{{- /* Render. */}}
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+    {{- range $nodes }}
+      {{- $node := . }}
+      {{- if not $node.Page }}
+        {{- continue }}
+      {{- end }}
+      {{- if and $node.Page.IsHome $skipHome }}
+        {{- continue }}
+      {{- end }}
+      {{- template "walk" (dict "node" $node "currentPage" $currentPage) }}
+    {{- end }}
+  </ul>
+</nav>
+
+{{- /* Recursively render list items. */}}
+{{- define "walk" }}
+  {{- $currentPage := .currentPage }}
+  {{- $node := .node }}
+
+  {{- if not $node.Page }}
+    {{- return }}
+  {{- end }}
+
+  {{- $linkContent := $node.Page.LinkTitle }}
+  {{- with $node.Name }}
+    {{- $linkContent = . }}
+  {{- end }}
+
+  {{- $ariaCurrent := "" }}
+  {{- $liClass := "" }}
+
+  {{- if in $currentPage.Ancestors $node.Page }}
+    {{- $ariaCurrent = "true" }}
+  {{- end }}
+
+  {{- if $currentPage.Eq $node.Page }}
+    {{- $ariaCurrent = "page" }}
+    {{- $liClass = "active" }}
+  {{- end }}
+
+  <li {{- with $liClass }} class="{{ . }}" {{ end -}}>
+    {{- with $node.Page.Pages }}
+    <details{{- with $ariaCurrent }} open{{- else}}{{- if ne $node.Page.Params.sidebar.collapsed true }} open{{- end }}{{- end}}>
+      <summary>{{ $linkContent }}</summary>
+      <ul class="list-unstyled list-nested">
+        {{- range . }}
+          {{- template "walk" (dict "node" . "currentPage" $currentPage) }}
+        {{- end }}
+      </ul>
+    </details>
+    {{- else }}
+      <a {{- with $ariaCurrent }} aria-current="{{ . }}" {{- end }} href="{{- $node.Page.RelPermalink }}">{{ $linkContent }}</a>
+    {{- end }}
+  </li>
+{{- end }}
