@@ -41,14 +41,6 @@ jobs:
         # 增加 --gc (垃圾回收) 确保清理旧资源
         run: npm run build -- --gc --minify
 
-      - name: Verify public
-        run: |
-          echo "File count:"
-          find public -type f | wc -l
-
-          echo "Top files:"
-          find public -maxdepth 2 -type f
-
       - name: 🌐 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
