@@ -47,9 +47,12 @@ jobs:
           find public -type f | wc -l
 
           echo "Top files:"
-          find public -type f | head -20
+          find public -maxdepth 2 -type f
+
       - name: 🌐 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          force_orphan: true
+          commit_message: "Deploy to gh-pages: ${{ github.event.head_commit.message }}"
