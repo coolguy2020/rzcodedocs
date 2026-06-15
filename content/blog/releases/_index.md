@@ -7,7 +7,7 @@ date: 2026-03-22T08:00:00+08:00
 lastmod: 2026-06-15T14:30:00+08:00
 draft: false
 # 关键修复：添加贡献者，防止 blog-meta.html 报错
-contributors: ["据吉团队"]
+contributors: ["软宝宝团队"]
 layout: "single"
 params:
   seo:

@@ -1,8 +1,7 @@
 title = "软宝宝文档"
 # 或者自定义域名
-baseURL = "/rzcodedocs/"
+baseURL = "/"
 canonifyURLs = false
-# ❌ 保持 false 以生成绝对路径 /rzcodedocs/main.**.css
 relativeURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

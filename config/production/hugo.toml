@@ -4,3 +4,7 @@ baseURL = "/rzcodedocs/"
 canonifyURLs = false
 # ❌ 确保此项为 false 或删除（如果是 true，子路径引用会乱套）
 relativeURLs = false
+
+# Logo override: use relative path so it respects baseURL
+[params]
+  logo = "/rzcodedocs/images/rzcode_icon.png"
