@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     # ✨ 核心修正：即便 UI 无法选择，这里显式声明也可以生效
     permissions:
-      contents: read
-      pages: write
-      id-token: write
+      contents: write   # 授予推送代码到 gh-pages 分支的权限
+      pages: write      # 授予 Pages 服务的管理权限（可选）
+      id-token: write   # 身份验证权限（可选）
     # ✨ 关键修正：设置默认的工作目录
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -48,13 +48,6 @@ jobs:
 
           echo "Top files:"
           find public -type f | head -20
-      - name: Check public before deploy
-        run: |
-          ls -la public
-          find public -type f | wc -l
-      - name: Show gh-pages action version
-        run: |
-          node -v
       - name: 🌐 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
