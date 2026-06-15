@@ -41,11 +41,13 @@ jobs:
         # 增加 --gc (垃圾回收) 确保清理旧资源
         run: npm run build -- --gc --minify
 
-      - name: Debug build output
+      - name: Verify public
         run: |
-          pwd
-          find . -type d -name public
-          find . -type d -name dist
+          echo "File count:"
+          find public -type f | wc -l
+
+          echo "Top files:"
+          find public -type f | head -20
       - name: 🌐 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
