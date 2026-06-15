@@ -1,9 +1,9 @@
 title = "软宝宝文档"
 # 或者自定义域名
-baseURL = "./"
+baseURL = "/rzcodedocs/"
 canonifyURLs = false
-# ✅ 改为 true 以生成相对 URL 链接（如 main.**.css 而非 /main.**.css）
-relativeURLs = true
+# ❌ 保持 false 以生成绝对路径 /rzcodedocs/main.**.css
+relativeURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
