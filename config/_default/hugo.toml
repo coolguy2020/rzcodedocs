@@ -1,9 +1,9 @@
 title = "软宝宝文档"
 # 或者自定义域名
-baseURL = "http://localhost:1313/"
+baseURL = "./"
 canonifyURLs = false
-# ❌ 确保此项为 false 或删除（如果是 true，子路径引用会乱套）
-relativeURLs = false
+# ✅ 改为 true 以生成相对 URL 链接（如 main.**.css 而非 /main.**.css）
+relativeURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
