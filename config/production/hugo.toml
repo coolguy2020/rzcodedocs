@@ -1,6 +1,6 @@
 # Overrides for production environment
-baseURL = "https://docs.jujidata.com/"
-# ✅ 建议开启此项，强制 Hugo 在生成链接时补全 baseURL
+baseURL = "/rzcodedocs/"
+# ✅ 保持 false 以生成绝对路径 /rzcodedocs/main.**.css
 canonifyURLs = false
 # ❌ 确保此项为 false 或删除（如果是 true，子路径引用会乱套）
-relativeURLs = true
+relativeURLs = false
