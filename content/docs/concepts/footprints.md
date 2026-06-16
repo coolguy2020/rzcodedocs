@@ -19,6 +19,7 @@ params:
     canonical: ""
     robots: "index,follow"
 ---
+
 # 什么是软著申请“脚印”？
 
 **脚印**是我们为每一位软著申请人准备的“公开时间轴”功能。
