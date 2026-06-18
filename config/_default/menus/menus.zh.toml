@@ -32,6 +32,11 @@
   weight = 30
   pageRef = "/docs/concepts/"
 
+# --- 概念解析 大分类 ---
+[[sidebar_docs]]
+  name = "今日话题"
+  weight = 30
+  pageRef = "/docs/topics/"
 
 [[main]]
   name = "博客"
