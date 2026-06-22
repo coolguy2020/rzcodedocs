@@ -90,7 +90,7 @@ params:
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 text-center">
 
 <div class="col">
-  <a href="/docs/quick_guides/" class="docs-nav-card active-card">
+  <a href="./docs/quick_guides/" class="docs-nav-card active-card">
     <div class="card-body">
       <div class="docs-icon-wrapper" style="color: #28a745;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 1024 1024">
@@ -111,7 +111,7 @@ params:
             <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.5 6a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z"/>
           </svg>
         </div>
-        <h5>政策解读</h5>
+        <h5>软著科普</h5>
         <p>关于软著的一些官方政策解读和科普。</p>
       </div>
     </a>
