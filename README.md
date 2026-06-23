@@ -55,7 +55,7 @@
 - 实名认证（1-3 工作日）
 - 准备必要身份信息
 
-👉 [查看详细教程：软著申请账号和实名认证指南](https://rzcode.vip/docs/templates/shenqing_zhanghao/)
+👉 [查看详细教程：软著申请账号和实名认证指南](https://rzcode.vip/rzcodedocs/docs/templates/shenqing_zhanghao/)
 
 ### 第 2 步：创建项目并上传代码
 1. 在软宝宝创建新项目
@@ -75,7 +75,7 @@
 2. 登录版权中心系统提交
 3. 等待审核（2-4 个月）
 
-👉 [查看详细教程：软件著作权登记完整指南](https://rzcode.vip/docs/templates/gonglue_dengji/)
+👉 [查看详细教程：软件著作权登记完整指南](https://rzcode.vip/rzcodedocs/docs/templates/gonglue_dengji/)
 
 ---
 
@@ -95,7 +95,7 @@
 ### Q: 我的代码不足 3000 行可以申请吗？
 **A:** 可以。软著申请没有代码行数下限。如果您的代码少于 3000 行，可以全部提交。软宝宝会自动生成符合要求的文档。
 
-👉 [更多答案见：软著申请避坑指南](https://rzcode.vip/docs/templates/buzheng/)
+👉 [更多答案见：软著申请避坑指南](https://rzcode.vip/rzcodedocs/docs/templates/buzheng/)
 
 ### Q: 申请被补正了怎么办？
 **A:** 很正常。软宝宝提供补正分析和优化方案，帮您快速解决补正问题。
@@ -110,10 +110,10 @@
 
 ## 🎓 完整文档
 
-- 📖 [快速上手指南](https://rzcode.vip/docs/quick_guides/) - 5 分钟了解软宝宝
-- 📚 [软著申请全流程](https://rzcode.vip/docs/templates/) - 从账号注册到证书领取
-- 💼 [功能详解](https://rzcode.vip/docs/concepts/) - 深度了解每个功能
-- 🔍 [官方政策解读](https://rzcode.vip/docs/topics/) - 最新软著政策和行业动态
+- 📖 [快速上手指南](https://rzcode.vip/rzcodedocs/docs/quick_guides/) - 5 分钟了解软宝宝
+- 📚 [软著申请全流程](https://rzcode.vip/rzcodedocs/docs/templates/) - 从账号注册到证书领取
+- 💼 [功能详解](https://rzcode.vip/rzcodedocs/docs/concepts/) - 深度了解每个功能
+- 🔍 [官方政策解读](https://rzcode.vip/rzcodedocs/docs/topics/) - 最新软著政策和行业动态
 
 ---
 
@@ -131,7 +131,7 @@
 
 - 🌐 **官方网站**: [https://rzcode.vip](https://rzcode.vip)
 - 📧 **邮件**: support@rzcode.vip
-- 💬 **在线文档**: [https://rzcode.vip/docs/](https://rzcode.vip/docs/)
+- 💬 **在线文档**: [https://rzcode.vip/rzcodedocs/docs/](https://rzcode.vip/rzcodedocs/docs/)
 - 🐛 **问题反馈**: 在文档页面点击 "意见反馈" 按钮
 
 ---
@@ -139,15 +139,15 @@
 ## 🔗 相关资源
 
 ### 软著申请相关
-- [软件著作权申请条件和资格](https://rzcode.vip/docs/)
-- [软著申请所需材料清单](https://rzcode.vip/docs/templates/)
-- [各类软件（网站、APP、管理系统）申请指南](https://rzcode.vip/docs/templates/)
-- [软著登记补正常见原因及解决方案](https://rzcode.vip/docs/templates/buzheng/)
+- [软件著作权申请条件和资格](https://rzcode.vip/rzcodedocs/docs/)
+- [软著申请所需材料清单](https://rzcode.vip/rzcodedocs/docs/templates/)
+- [各类软件（网站、APP、管理系统）申请指南](https://rzcode.vip/rzcodedocs/docs/templates/)
+- [软著登记补正常见原因及解决方案](https://rzcode.vip/rzcodedocs/docs/templates/buzheng/)
 
 ### 深度阅读
-- [为什么要申请软件著作权？](https://rzcode.vip/docs/)
-- [软著证书有什么用处？高新技术企业认定、融资、招投标加分](https://rzcode.vip/docs/)
-- [2026 年最新软著申请政策解读](https://rzcode.vip/docs/topics/)
+- [为什么要申请软件著作权？](https://rzcode.vip/rzcodedocs/docs/)
+- [软著证书有什么用处？高新技术企业认定、融资、招投标加分](https://rzcode.vip/rzcodedocs/docs/)
+- [2026 年最新软著申请政策解读](https://rzcode.vip/rzcodedocs/docs/topics/)
 
 ---
 
