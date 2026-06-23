@@ -18,7 +18,7 @@ defaultContentLanguage = "zh"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2026 据吉网"
+copyRight = "Copyright (c) 2020-2026 伊尼艾"
 [params]
   # Some themes use a logo parameter to put an image next to the title
   logo = "/images/rzcode_icon.png" # Path to your icon in the /static/images/ folder
@@ -28,8 +28,8 @@ copyRight = "Copyright (c) 2020-2026 据吉网"
   weight = 10
   # 确保这个参数存在，Doks 的搜索依赖它
   [languages.zh.params]
-    title = "据吉文档"
-    description = "AI数据标注一站式服务平台使用手册"
+    title = "软宝宝文档"
+    description = "专业的基于真实软件开发的软著文档网页工具"
 [build.buildStats]
   enable = true
 
