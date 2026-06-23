@@ -13,7 +13,7 @@ params:
     title: "软著补正避坑指南 | 软宝宝"
     description: "总结软著申请常见补正原因，覆盖签章、命名、简称、开源重复率和留档要点，帮助减少返工。"
     keywords: ["软著补正", "软著申请", "软件著作权", "软著避坑", "软著材料", "软宝宝"]
-    canonical: "https://rzcode.vip/docs/templates/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/templates/"
     robots: "index, follow"
 ---
 

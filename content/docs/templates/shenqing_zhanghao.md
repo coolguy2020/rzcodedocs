@@ -13,7 +13,7 @@ params:
     title: "软著申请账号注册和实名认证｜新用户入门指南｜软宝宝"
     description: "软著申请第一步：账号注册、实名认证详细教程，包含所需资料、审核流程、认证周期（1-3工作日）、常见问题解答，帮助快速完成身份验证。"
     keywords: ["软著账号申请", "实名认证", "软著注册", "账号审核", "软著申请流程", "软件著作权申请"]
-    canonical: "https://rzcode.vip/docs/templates/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/templates/"
     robots: "index, follow"
 ---
 

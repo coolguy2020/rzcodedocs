@@ -14,7 +14,7 @@ params:
     title: "软著政策解读 | 软宝宝"
     description: "从申请材料规范、名称一致性、签章要求到补正原因，全面解读软件著作权政策要点，帮助企业与开发者提升申报效率。"
     keywords: ["软著政策解读", "软件著作权申请", "软著补正", "软著材料规范", "软宝宝", "软著流程"]
-    canonical: "https://rzcode.vip/docs/templates/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/templates/"
     robots: "index, follow"
 ---
 

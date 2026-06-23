@@ -90,7 +90,7 @@ params:
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 text-center">
 
 <div class="col">
-  <a href="./docs/quick_guides/" class="docs-nav-card active-card">
+  <a href="/docs/quick_guides/" class="docs-nav-card active-card">
     <div class="card-body">
       <div class="docs-icon-wrapper" style="color: #28a745;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 1024 1024">
