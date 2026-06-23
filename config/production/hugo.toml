@@ -1,21 +1,7 @@
 # Overrides for production environment
 baseURL = "https://rzcode.vip/rzcodedocs/"
-# ✅ 保持 false 以生成绝对路径 /rzcodedocs/main.**.css
+# ✅ 建议开启此项，强制 Hugo 在生成链接时补全 baseURL
 canonifyURLs = false
 # ❌ 确保此项为 false 或删除（如果是 true，子路径引用会乱套）
-relativeURLs = false
+relativeURLs = true
 copyRight = "Copyright (c) 2020-2026 伊尼艾"
-
-# Logo override: use relative path so it respects baseURL
-[params]
-  logo = "/rzcodedocs/images/rzcode_icon.png"
-[languages.zh]
-  languageName = "Chinese"
-  contentDir = "content" # 或者是 "content/zh"
-  weight = 10
-  # 确保这个参数存在，Doks 的搜索依赖它
-  [languages.zh.params]
-    title = "软宝宝文档"
-    description = "专业的基于真实软件开发的软著文档网页工具"
-[build.buildStats]
-  enable = true
