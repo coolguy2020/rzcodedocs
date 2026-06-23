@@ -110,5 +110,5 @@ copyRight = "Copyright (c) 2020-2026 伊尼艾"
   anchor = "Center"
   bgColor = "#ffffff"
   hint = "photo"
-  quality = 85
+  quality = 75
   resampleFilter = "Lanczos"
