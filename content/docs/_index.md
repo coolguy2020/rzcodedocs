@@ -90,7 +90,7 @@ params:
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 text-center">
 
 <div class="col">
-  <a href="/docs/quick_guides/" class="docs-nav-card active-card">
+  <a href="docs/quick_guides/" class="docs-nav-card active-card" data-path="docs/quick_guides/">
     <div class="card-body">
       <div class="docs-icon-wrapper" style="color: #28a745;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 1024 1024">
@@ -104,7 +104,7 @@ params:
 </div>
 
   <div class="col">
-    <a href="/docs/templates/" class="docs-nav-card">
+    <a href="docs/templates/" class="docs-nav-card" data-path="docs/templates/">
       <div class="card-body">
         <div class="docs-icon-wrapper">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
@@ -118,7 +118,7 @@ params:
   </div>
 
 <div class="col">
-  <a href="/docs/concepts/" class="docs-nav-card">
+  <a href="docs/concepts/" class="docs-nav-card" data-path="docs/concepts/">
     <div class="card-body">
       <div class="docs-icon-wrapper" style="color: #087990;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
@@ -132,7 +132,7 @@ params:
 </div>
 
 <div class="col">
-  <a href="/docs/topics/" class="docs-nav-card">
+  <a href="docs/topics/" class="docs-nav-card" data-path="docs/topics/">
     <div class="card-body">
       <div class="docs-icon-wrapper" style="color: #f59e0b;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
@@ -147,4 +147,20 @@ params:
 </div>
 
 </div>
+
+<script>
+// Adjust paths based on environment
+document.querySelectorAll('[data-path]').forEach(link => {
+  const path = link.getAttribute('data-path');
+  const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+
+  if (isProduction) {
+    // Production: prepend /rzcodedocs/
+    link.href = '/rzcodedocs/' + path;
+  } else {
+    // Local: use path as is
+    link.href = '/' + path;
+  }
+});
+</script>
 

@@ -1,6 +1,6 @@
 title = "软宝宝文档"
 # 或者自定义域名
-baseURL = "/"
+baseURL = "http://localhost:1313/"
 canonifyURLs = false
 relativeURLs = false
 disableAliases = true
