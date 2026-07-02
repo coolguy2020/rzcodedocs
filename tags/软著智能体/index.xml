@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软著智能体 on 软宝宝文档</title><link>https://rzcode.vip/rzcodedocs/tags/%E8%BD%AF%E8%91%97%E6%99%BA%E8%83%BD%E4%BD%93/</link><description>Recent content in 软著智能体 on 软宝宝文档</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright (c) 2020-2026 伊尼艾</copyright><lastBuildDate>Mon, 15 Jun 2026 15:30:00 +0800</lastBuildDate><atom:link href="https://rzcode.vip/rzcodedocs/tags/%E8%BD%AF%E8%91%97%E6%99%BA%E8%83%BD%E4%BD%93/index.xml" rel="self" type="application/rss+xml"/><item><title>智能过滤文件类型是怎么做到的？</title><link>https://rzcode.vip/rzcodedocs/blog/%E6%99%BA%E8%83%BD%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B%E6%98%AF%E6%80%8E%E4%B9%88%E5%81%9A%E5%88%B0%E7%9A%84/</link><pubDate>Mon, 15 Jun 2026 15:30:00 +0800</pubDate><guid>https://rzcode.vip/rzcodedocs/blog/%E6%99%BA%E8%83%BD%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B%E6%98%AF%E6%80%8E%E4%B9%88%E5%81%9A%E5%88%B0%E7%9A%84/</guid><description>&lt;h1 id="智能过滤文件类型是怎么做到的"&gt;智能过滤文件类型是怎么做到的&lt;/h1&gt;
+&lt;p&gt;在软著材料生成场景里，最常见的问题不是“没有代码”，而是“代码太多且太杂”。&lt;/p&gt;
+&lt;p&gt;一个真实项目里通常会包含：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;业务源码&lt;/li&gt;
+&lt;li&gt;依赖目录（如 &lt;code&gt;node_modules&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;编译产物（如 &lt;code&gt;dist&lt;/code&gt;、&lt;code&gt;build&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;日志与缓存&lt;/li&gt;
+&lt;li&gt;图片、字体、压缩包等资源文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果直接把整个项目打包用于软著材料整理，不仅体积大、处理慢，还会引入大量无效内容，影响可读性和审核效率。&lt;/p&gt;
+&lt;p&gt;“智能过滤文件类型”要解决的核心，就是在不漏掉关键源码的前提下，尽可能准确地剔除无关文件。&lt;/p&gt;
+&lt;h2 id="目标与约束"&gt;目标与约束&lt;/h2&gt;
+&lt;p&gt;一个可用的过滤系统，至少要同时满足四个目标：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;准确&lt;/strong&gt;：尽量保留真实业务代码，排除明显无关文件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;稳定&lt;/strong&gt;：不同技术栈、不同目录结构下行为一致。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可解释&lt;/strong&gt;：每个文件为什么被保留/排除，能说清楚。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可配置&lt;/strong&gt;：支持用户自定义保留或排除规则。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="整体架构"&gt;整体架构&lt;/h2&gt;
+&lt;p&gt;通常我们会把过滤分成四层，从“快筛”到“精筛”：&lt;/p&gt;</description></item></channel></rss>

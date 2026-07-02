@@ -1,0 +1,73 @@
+# 软宝宝文档
+
+> 专业的基于真实软件开发的软著文档网页工具
+
+- [页面未找到](https://rzcode.vip/rzcodedocs/404/): 您正在寻找的页面不存在或已被移动。请检查网址，使用导航浏览各个板块，或返回首页。
+- [隐私政策](https://rzcode.vip/rzcodedocs/privacy/): 了解我们如何收集、使用和保护您的个人数据，您对信息拥有的权利，以及如何联系我们。
+- [博客指南](https://rzcode.vip/rzcodedocs/blog/): 此页面包含产品的多用的技术和产品亮点，希望能和大家多交流解惑。
+- [文档指南](https://rzcode.vip/rzcodedocs/docs/): 据吉文档的主页面，包含所有指南、参考和资源。
+
+## 博客指南
+
+> 此页面包含产品的多用的技术和产品亮点，希望能和大家多交流解惑。
+
+- [软宝宝版本功能更新总览](https://rzcode.vip/rzcodedocs/blog/releases/): 软宝宝上线版本功能介绍页，汇总各版本新增能力与迭代重点，包括代码上传下载、登录与项目管理、截图生成说明文档及申请表确认信息生成。
+- [软著智能体技术分享](https://rzcode.vip/rzcodedocs/blog/techniques/): 聚焦软著智能体的核心技术实践，分享代码解析、文档理解、信息抽取、提示词编排与质量校验等关键能力的设计思路。
+
+### 软宝宝版本功能更新总览
+
+> 软宝宝上线版本功能介绍页，汇总各版本新增能力与迭代重点，包括代码上传下载、登录与项目管理、截图生成说明文档及申请表确认信息生成。
+
+- [版本上线：新增登录界面与项目管理能力](https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%96%B0%E5%A2%9E%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%E4%B8%8E%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E8%83%BD%E5%8A%9B/): 本次版本新增登录界面与项目管理功能，支持账号登录后统一查看、管理与跟踪项目进度，提升协作效率与管理清晰度。
+- [版本上线：支持代码上传与软著代码包下载](https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%94%AF%E6%8C%81%E4%BB%A3%E7%A0%81%E4%B8%8A%E4%BC%A0%E4%B8%8E%E8%BD%AF%E8%91%97%E4%BB%A3%E7%A0%81%E5%8C%85%E4%B8%8B%E8%BD%BD/): 本次版本新增代码上传与软著代码文件下载能力，支持从项目源码到申请材料的快速生成与导出，显著减少人工整理时间。
+- [版本上线：支持截图上传并生成软著说明文档](https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%94%AF%E6%8C%81%E6%88%AA%E5%9B%BE%E4%B8%8A%E4%BC%A0%E5%B9%B6%E7%94%9F%E6%88%90%E8%BD%AF%E8%91%97%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/): 本次版本新增截图上传能力，可结合项目代码与截图自动生成软著说明文档，帮助团队更快完成申报材料准备。
+- [版本上线：新增申请表确认信息生成功能](https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%96%B0%E5%A2%9E%E7%94%B3%E8%AF%B7%E8%A1%A8%E7%A1%AE%E8%AE%A4%E4%BF%A1%E6%81%AF%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD/): 本次版本上线申请表确认信息生成功能，可分析项目代码与使用文档，自动提取关键信息并生成软著申请表确认内容，供填写时参考。
+- [版本上线：新增脚印功能，分享申请历程与补正理由](https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%96%B0%E5%A2%9E%E8%84%9A%E5%8D%B0%E5%8A%9F%E8%83%BD%E5%88%86%E4%BA%AB%E7%94%B3%E8%AF%B7%E5%8E%86%E7%A8%8B%E4%B8%8E%E8%A1%A5%E6%AD%A3%E7%90%86%E7%94%B1/): 本次版本上线脚印功能，可记录与分享软著申请的完整时间线、状态变化与补正理由，方便团队协作与经验沉淀。
+
+### 软著智能体技术分享
+
+> 聚焦软著智能体的核心技术实践，分享代码解析、文档理解、信息抽取、提示词编排与质量校验等关键能力的设计思路。
+
+- [智能过滤文件类型是怎么做到的？](https://rzcode.vip/rzcodedocs/blog/%E6%99%BA%E8%83%BD%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B%E6%98%AF%E6%80%8E%E4%B9%88%E5%81%9A%E5%88%B0%E7%9A%84/): 本文系统讲解软著智能体如何实现文件类型智能过滤，覆盖规则引擎、优先级策略、语言识别、二进制检测与可解释输出。
+
+## 文档指南
+
+> 据吉文档的主页面，包含所有指南、参考和资源。
+
+- [功能介绍 (Concepts)](https://rzcode.vip/rzcodedocs/docs/concepts/)
+- [软宝宝（RZcode）软件介绍](https://rzcode.vip/rzcodedocs/docs/quick_guides/): 软宝宝是一款面向开发者与企业团队的软著材料自动化生成工具，帮助你从项目代码快速产出规范申请材料。
+- [今日话题](https://rzcode.vip/rzcodedocs/docs/topics/): 软著申请行业观察、经验分享、工具实践和常见问题讨论，与社区一起探讨软著申请中的真实场景和解决方案。
+- [软著政策解读指南](https://rzcode.vip/rzcodedocs/docs/templates/): 软著政策解读指南，聚焦软件著作权申请流程、补正高频问题、材料规范、命名规则与审查关注点，帮助团队提高一次通过率。
+- [Resources](https://rzcode.vip/rzcodedocs/docs/resources/): Discover curated links to official docs, tools, templates, and learning materials that help you deepen your knowledge and get more from this project.
+
+### 功能介绍 (Concepts)
+
+
+
+- [脚印功能：分享您的软著申请历程](https://rzcode.vip/rzcodedocs/docs/concepts/footprints/): 了解软宝宝脚印功能如何帮助您记录软著申请全过程，保护隐私同时为其他申请人提供参考。支持按节点记录，一键分享申请路线，让补正经验可沉淀。
+- [软宝宝（RZCode）定价与计费规则说明](https://rzcode.vip/rzcodedocs/docs/concepts/pricing/): 软宝宝（RZCode）定价说明，涵盖 credits 充值、文档计费规则、截图与章节费用、成本示例及项目限制，帮助团队快速评估软著材料预算。
+
+### 软宝宝（RZcode）软件介绍
+
+> 软宝宝是一款面向开发者与企业团队的软著材料自动化生成工具，帮助你从项目代码快速产出规范申请材料。
+
+- [软宝宝（RZcode）软件介绍](https://rzcode.vip/rzcodedocs/docs/quick_guides/intro/): 软宝宝是一款面向开发者与企业团队的软著材料自动化生成工具，帮助你从项目代码快速产出规范申请材料。
+- [2026主流软著文档生成平台横向评测](https://rzcode.vip/rzcodedocs/docs/quick_guides/comparison/): 对比 软宝宝（RZCode）、软著宝、软著帮、CopyAIGC、易软著等主流平台，从真实源码分析、截图识别、说明书生成到适用场景，帮助你选择更适合的软件著作权材料生成工具。
+
+### 今日话题
+
+> 软著申请行业观察、经验分享、工具实践和常见问题讨论，与社区一起探讨软著申请中的真实场景和解决方案。
+
+- [有软件，不想整理软著文档怎么办](https://rzcode.vip/rzcodedocs/docs/topics/20260618/): 有软件，不想整理软著文档怎么办。
+- [软著申请进入新阶段：企业如何调整高企知识产权布局](https://rzcode.vip/rzcodedocs/docs/topics/20260702/): 软著申请进入新阶段。企业如何调整高企知识产权布局
+
+### 软著政策解读指南
+
+> 软著政策解读指南，聚焦软件著作权申请流程、补正高频问题、材料规范、命名规则与审查关注点，帮助团队提高一次通过率。
+
+- [软著申请账号和实名认证指南](https://rzcode.vip/rzcodedocs/docs/templates/shenqing_zhanghao/): 软著申请账号注册和实名认证完整教程：详细步骤、所需资料、认证周期（1-3工作日）、常见问题一次搞定。
+- [软件著作权登记完整指南](https://rzcode.vip/rzcodedocs/docs/templates/gonglue_dengji/): 软件著作权登记详细教程：从准备材料、技术方案、源代码说明到填写登记表，逐步教你如何成功完成软著登记。
+- [软著补正避坑指南](https://rzcode.vip/rzcodedocs/docs/templates/buzheng/): 软著补正避坑指南：覆盖签章、命名、简称、开源重复率与留档5个高频问题，帮助提升一次过审率。
+- [软著申请视频攻略](https://rzcode.vip/rzcodedocs/docs/templates/ruanzhu_video/): 软件著作权登记详细教程：从准备材料、技术方案、源代码说明到填写登记表，逐步教你如何成功完成软著登记。
+- [软著申请「模板化补正」实战手册](https://rzcode.vip/rzcodedocs/docs/templates/mobanhua_buzheng/): 软著申请实战经验：说明书质量优先、AI误判处理策略、补正应对方法。围绕真实性、逻辑性和申请策略，提升软件著作权材料通过率。
+
