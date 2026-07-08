@@ -65,7 +65,7 @@ params:
 
 # 第一步：上传项目
 
-![首页上传界面](.\images\home_page.png)
+![首页上传界面](./images/home_page.png)
 
 进入首页。
 
@@ -109,7 +109,7 @@ params:
 ---
 
 # 第二步：智能识别项目
-![智能筛选](images/smart_ext.png)
+![智能筛选](./images/smart_ext.png)
 
 上传完成以后，RZCode 会自动识别项目文件后缀，判断文档的语言架构。
 
@@ -133,7 +133,7 @@ java
 ---
 
 # 第三步：下载源代码文档
-![下载按钮](images/download_btn.png)
+![下载按钮](./images/download_btn.png)
 
 * 系统会按照项目结构进行排序。
 
