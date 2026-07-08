@@ -1,6 +1,18 @@
 ---
-title: 如何生成源代码文档
-description: 使用软宝宝（RZCode）一键生成规范的软件源代码文档，支持 GitHub、本地项目、ZIP 压缩包，自动过滤第三方库，生成符合软件著作权申请要求的代码文档。
+title: "如何用软宝宝一键生成源代码文档"
+description: "自动生成符合软著申请要求的源代码文档。支持 ZIP 导入和本地项目，智能过滤第三方库，自动排版分页，几分钟完成整个流程。"
+keywords: "源代码文档,软件著作权,RZCode,软宝宝,代码文档生成,软著申请"
+date: 2026-07-08
+draft: false
+weight: 20
+layout: "single"
+params:
+  seo:
+    title: "如何用软宝宝一键生成源代码文档 | RZCode"
+    description: "自动生成符合软著申请要求的源代码文档。支持 ZIP 导入和本地项目，智能过滤第三方库，自动排版分页，几分钟完成整个流程。"
+    keywords: ["源代码文档", "软件著作权", "RZCode", "软宝宝", "代码文档生成", "软著申请"]
+    canonical: "https://rzcode.vip/rzcodedocs/docs/quick_guides/how_sourcecodedocs/"
+    robots: "index, follow"
 ---
 
 # 如何用软宝宝生成源代码文档
