@@ -59,7 +59,7 @@ params:
 
 /* 卡片内部元素 */
 .docs-nav-card .card-body {
-    padding: 2rem 1.5rem !important; 
+    padding: 2rem 1.5rem !important;
 }
 
 .docs-icon-wrapper {
@@ -90,7 +90,7 @@ params:
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 text-center">
 
 <div class="col">
-  <a href="/blog/techniques" class="docs-nav-card active-card">
+  <a href="blog/techniques" class="docs-nav-card active-card" data-path="blog/techniques/">
     <div class="card-body">
       <div class="docs-icon-wrapper" style="color: #fd7e14;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
@@ -106,9 +106,9 @@ params:
 </div>
 
 <div class="col">
-  <a href="/blog/releases" class="docs-nav-card">
+  <a href="blog/releases" class="docs-nav-card" data-path="blog/releases/">
     <div class="card-body">
-      <div class="docs-icon-wrapper" style="color: #8e44ad;">
+      <div class="docs-icon-wrapper" style="color: #8e44ad;" >
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
           <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm11 11.966V3.034a.034.034 0 0 1 .034-.034.034.034 0 0 1 .034.034v9.932a.034.034 0 0 1-.034.034.034.034 0 0 1-.034-.034zm-2-9.932v9.932a.034.034 0 0 1-.034.034.034.034 0 0 1-.034-.034V3.034a.034.034 0 0 1 .034-.034.034.034 0 0 1 .034.034zm-2 9.932V3.034a.034.034 0 0 1 .034-.034.034.034 0 0 1 .034.034v9.932a.034.034 0 0 1-.034.034.034.034 0 0 1-.034-.034zm-2-9.932v9.932a.034.034 0 0 1-.034.034.034.034 0 0 1-.034-.034V3.034a.034.034 0 0 1 .034-.034.034.034 0 0 1 .034.034zm-2 9.932V3.034a.034.034 0 0 1 .034-.034.034.034 0 0 1 .034.034v9.932a.034.034 0 0 1-.034.034.034.034 0 0 1-.034-.034z"/>
           <path d="M7 3.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
@@ -122,3 +122,18 @@ params:
 
 </div>
 
+<script>
+// Adjust paths based on environment
+document.querySelectorAll('[data-path]').forEach(link => {
+  const path = link.getAttribute('data-path');
+  const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+
+  if (isProduction) {
+    // Production: prepend /rzcodedocs/
+    link.href = '/rzcodedocs/' + path;
+  } else {
+    // Local: use path as is
+    link.href = '/' + path;
+  }
+});
+</script>

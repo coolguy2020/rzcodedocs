@@ -1,5 +1,5 @@
 # Overrides for next environment
-baseURL = "https://docs.jujidata.com/"
+baseURL = "https://rzcode.vip/rzcodedocs"
 
 # ✅ 建议开启此项，强制 Hugo 在生成链接时补全 baseURL
 canonifyURLs = false

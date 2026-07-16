@@ -87,7 +87,7 @@ mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/coolguy2020/jujidata-docs"
+  docsRepo = "https://github.com/coolguy2020/rzcodedocs"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "doks" # "" (none, default) or <sub path>
 
