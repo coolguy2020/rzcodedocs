@@ -1,21 +1,17 @@
 // Put your custom SCSS variables here
 // $font-family-sans-serif:      "Jost", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-sans-serif:
-  system-ui,
-  -apple-system,
-  "Segoe UI",
-  Roboto,
-  "Helvetica Neue",
-  "Noto Sans",
-  "Liberation Sans",
-  Arial,
-  sans-serif,
-  "Apple Color Emoji",
-  "Segoe UI Emoji",
-  "Segoe UI Symbol",
-  "Noto Color Emoji";
-$rzcode-color-primary: linear-gradient(
-    135deg,
-    #6973da 0%,
-    #337aca 100%
-  );
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    "Noto Sans",
+    "Liberation Sans",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+$rzcode-color-primary: linear-gradient(135deg, #6973da 0%, #337aca 100%);
