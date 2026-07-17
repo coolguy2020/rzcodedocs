@@ -1,4 +1,3 @@
-
 ---
 title: "软著申请视频攻略"
 description: "软件著作权登记详细教程：从准备材料、技术方案、源代码说明到填写登记表，逐步教你如何成功完成软著登记。"
@@ -17,6 +16,7 @@ params:
     canonical: "https://rzcode.vip/rzcodedocs/docs/templates/"
     robots: "index, follow"
 ---
+
 <iframe
     src="//player.bilibili.com/player.html?isOutside=true&aid=116803145572154&bvid=BV1oSj96xEdc&cid=39362956634&p=1"
     width="100%"
