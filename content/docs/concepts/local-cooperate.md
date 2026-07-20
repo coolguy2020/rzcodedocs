@@ -104,6 +104,10 @@ sequenceDiagram
 ## 配置示例：以 WorkBuddy 接入软宝宝 MCP
 
 ### 第一步：添加 MCP 配置
+![workbuddy](images/01.png)
+![workbuddy](images/02.png)
+![workbuddy](images/03.png)
+![workbuddy](images/04.png)
 
 在 WorkBuddy 中找到「自定义连接器」，点击「配置 MCP」。如果配置文件为空，直接粘贴以下内容；如果已有 `mcpServers` 字段，请将 `rzcode-mcp` 那一段合并进去。
 
@@ -122,9 +126,19 @@ sequenceDiagram
 }
 ```
 
+> **说明：** `<您的 API key>` 需要替换为您从软宝宝网页端「设置」中生成的实际 API key。
+
 保存后返回「MCP 服务管理」页面。
 
-### 第二步：启用并信任 MCP
+### 第二步：如何找到X-API-Key
+1. 打开软宝宝设置页面
+![设置](images/05.png)
+2. 点击生成API key, 然后将key粘贴回workbuddy的mcp配置里。
+
+### 第三步：启用并信任 MCP
+
+![信任](images/06.png)
+
 
 在「MCP 服务管理」的「我的 MCP」列表中，找到 `rzcode-mcp`。首次连接前，WorkBuddy 会提示您「信任」该服务，点击确认。
 
@@ -136,9 +150,16 @@ sequenceDiagram
 - `rzcode_upload_source_code_meta`
 - `rzcode_upload_image_polished_content`
 
-### 第三步：选择本地代码目录
+![成功](images/07.png)
 
+### 第四步：选择本地代码目录
+进入工作区间
+![主工作区](images/08.png)
 在 WorkBuddy 新建任务时，点击「选择工作空间」，然后选择您要申请软著的项目代码所在文件夹。后续本地 Agent 将读取该目录进行分析。
+
+### 第五步：生成使用手册
+
+正在马不停蹄打造skill，马上就可以全自动执行了！！！
 
 ## 测试 MCP 连接
 
