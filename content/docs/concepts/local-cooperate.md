@@ -101,9 +101,43 @@ sequenceDiagram
 2. 在软宝宝网页端「设置」中生成 API key，并妥善保存。
 3. 在本地安装支持 MCP 的客户端，例如 WorkBuddy、Claude Desktop、Cursor 等。下文以 WorkBuddy 为例说明配置步骤。
 
-## 配置示例：以 WorkBuddy 接入软宝宝 MCP
+## 安装并使用软宝宝 Skill（推荐）
+
+软宝宝 Skill 是本地协作模式的推荐使用方式，安装后只需一条命令即可自动完成代码分析、材料整理与文档生成。
+
+### 方法一：通过 SkillHub 安装
+
+访问 [SkillHub - rzcode-workflow-skill](https://skillhub.cn/skills/rzcode-workflow-skill) 完成安装。
+
+### 方法二：通过 Red Skill 商店安装
+
+复制并发送以下提示词给你的 Agent：
+
+```text
+现在为你安装Skill，先来检查是否已安装Red Skill商店，请根据 https://redskill.xiaohongshu.net/install.md 安装RedSkill 商店，然后安装rzcode-workflow-skill技能。若已安装，则直接安装 rzcode-workflow-skill 技能。
+```
+
+### 使用方法
+
+Skill 安装完成后，在对话框中输入：
+
+```text
+/rzcode-workflow-skill 生成 全部 / 源代码 / 使用说明 / 申请帮助 文档
+```
+
+其中末尾参数用于指定要生成的文档类型，可替换为：
+
+- `全部`：一次性生成源代码、使用说明与申请帮助文档
+- `源代码`：仅生成源代码相关说明
+- `使用说明`：仅生成软件使用说明
+- `申请帮助`：仅生成申请辅助文档
+
+## 备选方案：手动配置 MCP
+
+如果你无法使用软宝宝 Skill，也可以直接在支持 MCP 的客户端中手动配置软宝宝 MCP Server。下文以 WorkBuddy 为例说明配置步骤。
 
 ### 第一步：添加 MCP 配置
+
 ![workbuddy](images/01.png)
 ![workbuddy](images/02.png)
 ![workbuddy](images/03.png)
@@ -115,7 +149,7 @@ sequenceDiagram
 {
   "mcpServers": {
     "rzcode-mcp": {
-      "type": "sse",
+      "type": "http",
       "url": "https://rzcode.vip/mcp",
       "protocolVersion": "0.6.1",
       "headers": {
@@ -131,14 +165,14 @@ sequenceDiagram
 保存后返回「MCP 服务管理」页面。
 
 ### 第二步：如何找到X-API-Key
+
 1. 打开软宝宝设置页面
-![设置](images/05.png)
+   ![设置](images/05.png)
 2. 点击生成API key, 然后将key粘贴回workbuddy的mcp配置里。
 
 ### 第三步：启用并信任 MCP
 
 ![信任](images/06.png)
-
 
 在「MCP 服务管理」的「我的 MCP」列表中，找到 `rzcode-mcp`。首次连接前，WorkBuddy 会提示您「信任」该服务，点击确认。
 
@@ -153,19 +187,24 @@ sequenceDiagram
 ![成功](images/07.png)
 
 ### 第四步：选择本地代码目录
+
 进入工作区间
 ![主工作区](images/08.png)
 在 WorkBuddy 新建任务时，点击「选择工作空间」，然后选择您要申请软著的项目代码所在文件夹。后续本地 Agent 将读取该目录进行分析。
 
-### 第五步：生成使用手册
+### 第五步：使用 MCP 工具
 
-正在马不停蹄打造skill，马上就可以全自动执行了！！！
+配置完成后，您可以在支持 MCP 的 Agent 中直接调用软宝宝 MCP 工具。典型流程为：创建本地项目 → 获取代码元数据要求 → 在本地分析代码并生成 `source_code_meta` → 上传代码元数据 → 上传图片润色内容 → 在软宝宝网页端生成并下载文档。
 
-## 测试 MCP 连接
+### 测试 MCP 连接
 
 配置完成后，可以用自然语言测试工具是否正常可用：
 
 ```text
+/rzcode-workflow-skill 列出我的软宝宝项目
+
+或
+
 /rzcode_list_projects 列出我的软宝宝项目
 ```
 
@@ -219,10 +258,10 @@ sequenceDiagram
 
 ## 下一步
 
-配置好 MCP 后，您可以：
+安装并配置完成后，您可以：
 
-1. 创建第一个本地协作项目。
-2. 用本地 Agent 分析代码并生成 `source_code_meta`。
-3. 在软宝宝网页端上传截图，触发文档生成。
+1. 使用 `/rzcode-workflow-skill 生成 全部` 命令，让 Skill 自动完成代码分析与文档生成。
+2. 在软宝宝网页端上传软件截图，补充视觉材料。
+3. 在软宝宝网页端一键生成并下载软著申请所需的 Word 文档。
 
-如果在配置或使用过程中遇到问题，欢迎通过[企微联系客服](/contact)获取帮助。
+如果在安装、配置或使用过程中遇到问题，欢迎通过[企微联系客服](/contact)获取帮助。
