@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>据吉团队 on 软宝宝文档</title><link>https://rzcode.vip/rzcodedocs/contributors/%E6%8D%AE%E5%90%89%E5%9B%A2%E9%98%9F/</link><description>Recent content in 据吉团队 on 软宝宝文档</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright (c) 2020-2026 伊尼艾</copyright><lastBuildDate>Fri, 17 Jul 2026 09:00:00 +0800</lastBuildDate><atom:link href="https://rzcode.vip/rzcodedocs/contributors/%E6%8D%AE%E5%90%89%E5%9B%A2%E9%98%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>版本上线：新增脚印功能，分享申请历程与补正理由</title><link>https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%96%B0%E5%A2%9E%E8%84%9A%E5%8D%B0%E5%8A%9F%E8%83%BD%E5%88%86%E4%BA%AB%E7%94%B3%E8%AF%B7%E5%8E%86%E7%A8%8B%E4%B8%8E%E8%A1%A5%E6%AD%A3%E7%90%86%E7%94%B1/</link><pubDate>Mon, 15 Jun 2026 16:00:00 +0800</pubDate><guid>https://rzcode.vip/rzcodedocs/blog/%E7%89%88%E6%9C%AC%E4%B8%8A%E7%BA%BF%E6%96%B0%E5%A2%9E%E8%84%9A%E5%8D%B0%E5%8A%9F%E8%83%BD%E5%88%86%E4%BA%AB%E7%94%B3%E8%AF%B7%E5%8E%86%E7%A8%8B%E4%B8%8E%E8%A1%A5%E6%AD%A3%E7%90%86%E7%94%B1/</guid><description>&lt;h1 id="版本上线公告"&gt;版本上线公告&lt;/h1&gt;
+&lt;p&gt;这一版我们上线了一个新能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;脚印功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;现在你可以用脚印记录软著申请过程中的每一步关键事件：提交申请、收到补正、反复修改、最终下证，所有时间节点与理由都能被记录、查看与分享。&lt;/p&gt;
+&lt;h2 id="本次上线功能"&gt;本次上线功能&lt;/h2&gt;
+&lt;h3 id="脚印功能"&gt;脚印功能&lt;/h3&gt;
+&lt;p&gt;支持为每个软著申请项目记录时间线事件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;申请提交&lt;/strong&gt;：记录初次提交时间、材料包版本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;补正通知&lt;/strong&gt;：记录补正类型、补正理由、回复截止时间。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修改记录&lt;/strong&gt;：记录每次修改的内容、修改时间、修改原因。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;下证时间&lt;/strong&gt;：记录最终下证日期与证号。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;每个事件都可附加简短说明与相关附件引用，便于后续追溯。&lt;/p&gt;
+&lt;h2 id="使用流程"&gt;使用流程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在项目详情页进入&amp;quot;脚印&amp;quot;面板。&lt;/li&gt;
+&lt;li&gt;点击&amp;quot;新增事件&amp;quot;，选择事件类型。&lt;/li&gt;
+&lt;li&gt;填写时间、事件描述与补正理由（如适用）。&lt;/li&gt;
+&lt;li&gt;保存后自动生成时间线视图。&lt;/li&gt;
+&lt;li&gt;分享链接或截图给团队成员查看完整历程。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="带来的价值"&gt;带来的价值&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;经验沉淀&lt;/strong&gt;：每个项目的申请历程都被记录，形成团队的软著申请知识库。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协作透明&lt;/strong&gt;：团队成员可快速了解项目状态与每次补正的原因。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;减少重复补正&lt;/strong&gt;：分享补正经验，帮助新项目避免同样的问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;提升审批效率&lt;/strong&gt;：对内总结规律，对外如实记录过程，减少后续审查盘问。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="常见应用场景"&gt;常见应用场景&lt;/h2&gt;
+&lt;h3 id="场景-1团队内经验分享"&gt;场景 1：团队内经验分享&lt;/h3&gt;
+&lt;p&gt;项目经过多次补正最后下证时，可将脚印分享给其他团队成员，让大家了解：&lt;/p&gt;</description></item><item><title>本地协作模式：源代码不离开本地</title><link>https://rzcode.vip/rzcodedocs/docs/concepts/local-cooperate/</link><pubDate>Thu, 16 Jul 2026 09:00:00 +0800</pubDate><guid>https://rzcode.vip/rzcodedocs/docs/concepts/local-cooperate/</guid><description>&lt;h1 id="本地协作模式源代码不离开本地也能申请软著"&gt;本地协作模式：源代码不离开本地也能申请软著&lt;/h1&gt;
+&lt;p&gt;如果您担心把项目源代码上传到第三方服务器，软宝宝提供了&lt;strong&gt;本地协作模式&lt;/strong&gt;。在此模式下，源代码的分析过程完全在您的本地设备上完成，您只需要把分析后的结构化数据上传到软宝宝，即可继续生成软著申请所需的指南、申请表等材料。&lt;/p&gt;
+&lt;h2 id="什么是本地协作模式"&gt;什么是本地协作模式？&lt;/h2&gt;
+&lt;p&gt;本地协作模式是软宝宝为注重代码隐私的用户设计的一种工作方式。它的核心思路是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;源代码不离开本地&lt;/strong&gt;：您本地的 Agent 直接读取项目代码，完成代码结构、模块关系、功能说明等分析。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;只上传结构化分析结果&lt;/strong&gt;：本地 Agent 输出的是 &lt;code&gt;source_code_meta&lt;/code&gt; 这类结构化数据，而不是原始代码文件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图片处理由网页端完成&lt;/strong&gt;：软件截图、运行界面等图片可在软宝宝网页端上传，由服务器分析并润色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文档生成仍在软宝宝完成&lt;/strong&gt;：结合本地分析结果和图片分析结果，一键生成符合软著申请要求的 Word 文档。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样既保留了软宝宝自动化生成材料的能力，又把最敏感的数据留在了您的本地。&lt;/p&gt;
+&lt;h2 id="适合哪些场景"&gt;适合哪些场景？&lt;/h2&gt;
+&lt;p&gt;本地协作模式特别适合以下情况：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目代码涉及商业机密或核心技术，不方便外传。&lt;/li&gt;
+&lt;li&gt;公司或团队对代码上传有合规要求。&lt;/li&gt;
+&lt;li&gt;项目包含敏感数据、隐私相关模块，希望最小化上传内容。&lt;/li&gt;
+&lt;li&gt;您已经在本地使用 LLM 或 MCP 客户端，希望把软宝宝接入现有工作流。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="工作流程概览"&gt;工作流程概览&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;
+ sequenceDiagram
+ participant User as 用户
+ participant Agent as 用户本地 Agent
+ participant MCP as 软宝宝 MCP Server
+ participant Web as 软宝宝网页端
+ participant Server as 软宝宝服务器
+
+ User-&amp;gt;&amp;gt;Web: 登录并创建 API key
+ User-&amp;gt;&amp;gt;MCP: 在 MCP 客户端中配置 URL 和 API key
+ User-&amp;gt;&amp;gt;MCP: 调用 rzcode_create_project
+ MCP-&amp;gt;&amp;gt;Server: POST /api/projects（mode=local）
+ Server--&amp;gt;&amp;gt;MCP: 返回 project_id
+ MCP--&amp;gt;&amp;gt;User: 项目创建成功
+
+ User-&amp;gt;&amp;gt;MCP: 调用 rzcode_get_source_code_meta_requirements
+ MCP--&amp;gt;&amp;gt;User: 返回 schema 与字段说明
+ User-&amp;gt;&amp;gt;Agent: 使用本地 Agent 分析代码目录
+ Agent--&amp;gt;&amp;gt;User: 生成 source_code_meta
+ User-&amp;gt;&amp;gt;MCP: 调用 rzcode_upload_source_code_meta
+ MCP-&amp;gt;&amp;gt;Server: PUT /api/projects/&amp;lt;id&amp;gt;/source-code-meta
+ Server--&amp;gt;&amp;gt;MCP: 元数据已保存
+
+ User-&amp;gt;&amp;gt;Web: 上传软件截图
+ Web-&amp;gt;&amp;gt;Server: 触发图片分析任务
+ Server--&amp;gt;&amp;gt;Web: 图片提取完成
+
+ User-&amp;gt;&amp;gt;MCP: 调用 rzcode_upload_image_polished_content
+ MCP-&amp;gt;&amp;gt;Server: PUT /api/projects/&amp;lt;id&amp;gt;/image-polished-content
+ Server--&amp;gt;&amp;gt;MCP: 润色内容已保存
+
+ User-&amp;gt;&amp;gt;Web: 手动触发并下载指南 / 申请表
+&lt;/pre&gt;
+
+&lt;h2 id="网页端-vs-mcp-工具操作分工"&gt;网页端 vs. MCP 工具：操作分工&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;操作&lt;/th&gt;
+					&lt;th&gt;在哪里完成&lt;/th&gt;
+					&lt;th&gt;说明&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;获取 API key&lt;/td&gt;
+					&lt;td&gt;软宝宝网页端&lt;/td&gt;
+					&lt;td&gt;在「设置」页面生成并复制。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;创建本地项目&lt;/td&gt;
+					&lt;td&gt;MCP 工具或网页端&lt;/td&gt;
+					&lt;td&gt;调用 &lt;code&gt;rzcode_create_project&lt;/code&gt;，模式为 &lt;code&gt;local&lt;/code&gt;。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;查看代码分析字段要求&lt;/td&gt;
+					&lt;td&gt;MCP 工具&lt;/td&gt;
+					&lt;td&gt;调用 &lt;code&gt;rzcode_get_source_code_meta_requirements&lt;/code&gt; 获取 schema。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;分析本地代码&lt;/td&gt;
+					&lt;td&gt;用户本地 Agent&lt;/td&gt;
+					&lt;td&gt;读取代码目录，按 schema 输出 &lt;code&gt;source_code_meta&lt;/code&gt;。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;上传代码分析结果&lt;/td&gt;
+					&lt;td&gt;MCP 工具&lt;/td&gt;
+					&lt;td&gt;调用 &lt;code&gt;rzcode_upload_source_code_meta&lt;/code&gt;。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;上传软件截图&lt;/td&gt;
+					&lt;td&gt;软宝宝网页端&lt;/td&gt;
+					&lt;td&gt;直接拖拽或选择图片上传。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;上传图片润色结果&lt;/td&gt;
+					&lt;td&gt;MCP 工具&lt;/td&gt;
+					&lt;td&gt;调用 &lt;code&gt;rzcode_upload_image_polished_content&lt;/code&gt;。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;生成并下载文档&lt;/td&gt;
+					&lt;td&gt;软宝宝网页端&lt;/td&gt;
+					&lt;td&gt;手动触发「生成指南」或「生成申请表」。&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="前置准备"&gt;前置准备&lt;/h2&gt;
+&lt;p&gt;开始之前，请确保您已完成以下准备：&lt;/p&gt;</description></item><item><title>脚印功能：分享您的软著申请历程</title><link>https://rzcode.vip/rzcodedocs/docs/concepts/footprints/</link><pubDate>Tue, 16 Jun 2026 09:00:00 +0800</pubDate><guid>https://rzcode.vip/rzcodedocs/docs/concepts/footprints/</guid><description>&lt;h1 id="什么是软著申请脚印"&gt;什么是软著申请“脚印”？&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;脚印&lt;/strong&gt;是我们为每一位软著申请人准备的“公开时间轴”功能。&lt;/p&gt;
+&lt;p&gt;它把您从准备材料、提交申请，到最终拿到证书的整个过程，拆解成一个个关键节点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;上传代码 / 生成代码文档&lt;/li&gt;
+&lt;li&gt;生成使用手册 / 填表帮助&lt;/li&gt;
+&lt;li&gt;向版权局提交申请&lt;/li&gt;
+&lt;li&gt;版权局受理、开始审查&lt;/li&gt;
+&lt;li&gt;被要求补正&lt;/li&gt;
+&lt;li&gt;提交补正材料&lt;/li&gt;
+&lt;li&gt;获得授权&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;您可以选择是否把这些节点公开。公开后，其他申请人就能看到一条“ anonymized 的申请路线”——比如“您在 6 月初提交，6 月中被要求补正，6 月底拿到证书”。&lt;/p&gt;</description></item></channel></rss>
