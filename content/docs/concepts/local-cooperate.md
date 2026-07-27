@@ -30,8 +30,8 @@ params:
 
 - **源代码不离开本地**：您本地的 Agent 直接读取项目代码，完成代码结构、模块关系、功能说明等分析。
 - **只上传结构化分析结果**：本地 Agent 输出的是 `source_code_meta` 这类结构化数据，而不是原始代码文件。
-- **图片处理由网页端完成**：软件截图、运行界面等图片可在软宝宝网页端上传，由服务器分析并润色。
-- **文档生成仍在软宝宝完成**：结合本地分析结果和图片分析结果，一键生成符合软著申请要求的 Word 文档。
+- **截图与文档流程可由 Agent 调度**：除注册、登录、生成 API key 外，软件截图上传、图片润色结果上传、文档生成与下载触发都可通过 Agent 调用 MCP 工具完成。
+- **云端只负责处理与生成**：软宝宝服务器接收结构化结果并生成最终文档，源代码本身仍不上传。
 
 这样既保留了软宝宝自动化生成材料的能力，又把最敏感的数据留在了您的本地。
 
@@ -55,43 +55,52 @@ sequenceDiagram
     participant Server as 软宝宝服务器
 
     User->>Web: 登录并创建 API key
-    User->>MCP: 在 MCP 客户端中配置 URL 和 API key
-    User->>MCP: 调用 rzcode_create_project
+    User->>Agent: 提供 URL 和 API key，并发起本地协作任务
+    Agent->>MCP: 在 MCP 客户端中完成连接配置
+
+    Agent->>MCP: 调用 rzcode_create_project
     MCP->>Server: POST /api/projects（mode=local）
     Server-->>MCP: 返回 project_id
-    MCP-->>User: 项目创建成功
+    MCP-->>Agent: 项目创建成功
 
-    User->>MCP: 调用 rzcode_get_source_code_meta_requirements
-    MCP-->>User: 返回 schema 与字段说明
-    User->>Agent: 使用本地 Agent 分析代码目录
-    Agent-->>User: 生成 source_code_meta
-    User->>MCP: 调用 rzcode_upload_source_code_meta
+    Agent->>MCP: 调用 rzcode_get_source_code_meta_requirements
+    MCP-->>Agent: 返回 schema 与字段说明
+    Agent->>Agent: 分析本地代码目录并生成 source_code_meta
+    Agent->>MCP: 调用 rzcode_upload_source_code_meta
     MCP->>Server: PUT /api/projects/<id>/source-code-meta
     Server-->>MCP: 元数据已保存
+    MCP-->>Agent: 上传成功
 
-    User->>Web: 上传软件截图
-    Web->>Server: 触发图片分析任务
-    Server-->>Web: 图片提取完成
+    Agent->>MCP: 上传软件截图并触发图片分析
+    MCP->>Server: 触发图片分析任务
+    Server-->>MCP: 图片提取完成
 
-    User->>MCP: 调用 rzcode_upload_image_polished_content
+    Agent->>MCP: 调用 rzcode_upload_image_polished_content
     MCP->>Server: PUT /api/projects/<id>/image-polished-content
     Server-->>MCP: 润色内容已保存
+    MCP-->>Agent: 上传成功
 
-    User->>Web: 手动触发并下载指南 / 申请表
+    Agent->>MCP: 触发并下载指南 / 申请表
+    MCP->>Server: 生成文档并返回下载结果
+    Server-->>MCP: 文档生成完成
+    MCP-->>Agent: 返回下载结果
 ```
 
-## 网页端 vs. MCP 工具：操作分工
+  ## 网页端（仅账号）vs. Agent + MCP：操作分工
 
 | 操作                 | 在哪里完成       | 说明                                                          |
 | -------------------- | ---------------- | ------------------------------------------------------------- |
+| 注册账号             | 软宝宝网页端     | 完成账号注册。                                                |
+| 登录账号             | 软宝宝网页端     | 登录后可进入设置与项目页面。                                  |
 | 获取 API key         | 软宝宝网页端     | 在「设置」页面生成并复制。                                    |
-| 创建本地项目         | MCP 工具或网页端 | 调用 `rzcode_create_project`，模式为 `local`。                |
-| 查看代码分析字段要求 | MCP 工具         | 调用 `rzcode_get_source_code_meta_requirements` 获取 schema。 |
+| 配置 MCP 连接        | 用户本地 Agent   | 用户提供 URL 与 API key 后，由 Agent 在 MCP 客户端完成配置。   |
+| 创建本地项目         | 用户本地 Agent   | Agent 调用 `rzcode_create_project`，模式为 `local`。          |
+| 查看代码分析字段要求 | 用户本地 Agent   | Agent 调用 `rzcode_get_source_code_meta_requirements` 获取 schema。 |
 | 分析本地代码         | 用户本地 Agent   | 读取代码目录，按 schema 输出 `source_code_meta`。             |
-| 上传代码分析结果     | MCP 工具         | 调用 `rzcode_upload_source_code_meta`。                       |
-| 上传软件截图         | 软宝宝网页端     | 直接拖拽或选择图片上传。                                      |
-| 上传图片润色结果     | MCP 工具         | 调用 `rzcode_upload_image_polished_content`。                 |
-| 生成并下载文档       | 软宝宝网页端     | 手动触发「生成指南」或「生成申请表」。                        |
+| 上传代码分析结果     | 用户本地 Agent   | Agent 调用 `rzcode_upload_source_code_meta`。                 |
+| 上传软件截图         | 用户本地 Agent   | Agent 调用 MCP 工具上传截图并触发分析。                       |
+| 上传图片润色结果     | 用户本地 Agent   | Agent 调用 `rzcode_upload_image_polished_content`。           |
+| 生成并下载文档       | 用户本地 Agent   | Agent 触发文档生成并拿到下载结果。                            |
 
 ## 前置准备
 
@@ -221,8 +230,8 @@ sequenceDiagram
 
 配置好 MCP 后，您可以：
 
-1. 创建第一个本地协作项目。
-2. 用本地 Agent 分析代码并生成 `source_code_meta`。
-3. 在软宝宝网页端上传截图，触发文档生成。
+1. 在网页端完成注册、登录并生成 API key。
+2. 在本地 Agent 一次性执行项目创建、代码分析结果上传、截图相关处理。
+3. 由 Agent 触发并下载指南/申请表结果。
 
 如果在配置或使用过程中遇到问题，欢迎通过[企微联系客服](/contact)获取帮助。
