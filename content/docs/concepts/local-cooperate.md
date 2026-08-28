@@ -16,7 +16,7 @@ params:
     title: "本地协作模式：源代码不离开本地也能申请软著 | 软宝宝"
     description: "软宝宝本地协作模式让您无需上传源代码，仅通过本地 Agent 分析代码并上传结构化结果，即可在网页端完成软著材料生成。"
     keywords: "软著本地协作,源代码隐私,本地 Agent,软著材料生成,软宝宝"
-    canonical: "https://rzcode.vip/docs/concepts/local-cooperate/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/local-cooperate/"
     robots: "index,follow"
 ---
 
