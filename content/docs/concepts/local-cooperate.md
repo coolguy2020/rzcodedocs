@@ -44,8 +44,6 @@ params:
 - 项目包含敏感数据、隐私相关模块，希望最小化上传内容。
 - 您已经在本地使用 LLM 或 MCP 客户端，希望把软宝宝接入现有工作流。
 
-
-
 ## 工作流程概览
 
 ```mermaid
@@ -88,21 +86,21 @@ sequenceDiagram
     MCP-->>Agent: 返回下载结果
 ```
 
-  ## 网页端（仅账号）vs. Agent + MCP：操作分工
+## 网页端（仅账号）vs. Agent + MCP：操作分工
 
-| 操作                 | 在哪里完成       | 说明                                                          |
-| -------------------- | ---------------- | ------------------------------------------------------------- |
-| 注册账号             | 软宝宝网页端     | 完成账号注册。                                                |
-| 登录账号             | 软宝宝网页端     | 登录后可进入设置与项目页面。                                  |
-| 获取 API key         | 软宝宝网页端     | 在「设置」页面生成并复制。                                    |
-| 配置 MCP 连接        | 用户本地 Agent   | 用户提供 URL 与 API key 后，由 Agent 在 MCP 客户端完成配置。   |
-| 创建本地项目         | 用户本地 Agent   | Agent 调用 `rzcode_create_project`，模式为 `local`。          |
-| 查看代码分析字段要求 | 用户本地 Agent   | Agent 调用 `rzcode_get_source_code_meta_requirements` 获取 schema。 |
-| 分析本地代码         | 用户本地 Agent   | 读取代码目录，按 schema 输出 `source_code_meta`。             |
-| 上传代码分析结果     | 用户本地 Agent   | Agent 调用 `rzcode_upload_source_code_meta`。                 |
-| 上传软件截图         | 用户本地 Agent   | Agent 调用 MCP 工具上传截图并触发分析。                       |
-| 上传图片润色结果     | 用户本地 Agent   | Agent 调用 `rzcode_upload_image_polished_content`。           |
-| 生成并下载文档       | 用户本地 Agent   | Agent 触发文档生成并拿到下载结果。                            |
+| 操作                 | 在哪里完成     | 说明                                                                |
+| -------------------- | -------------- | ------------------------------------------------------------------- |
+| 注册账号             | 软宝宝网页端   | 完成账号注册。                                                      |
+| 登录账号             | 软宝宝网页端   | 登录后可进入设置与项目页面。                                        |
+| 获取 API key         | 软宝宝网页端   | 在「设置」页面生成并复制。                                          |
+| 配置 MCP 连接        | 用户本地 Agent | 用户提供 URL 与 API key 后，由 Agent 在 MCP 客户端完成配置。        |
+| 创建本地项目         | 用户本地 Agent | Agent 调用 `rzcode_create_project`，模式为 `local`。                |
+| 查看代码分析字段要求 | 用户本地 Agent | Agent 调用 `rzcode_get_source_code_meta_requirements` 获取 schema。 |
+| 分析本地代码         | 用户本地 Agent | 读取代码目录，按 schema 输出 `source_code_meta`。                   |
+| 上传代码分析结果     | 用户本地 Agent | Agent 调用 `rzcode_upload_source_code_meta`。                       |
+| 上传软件截图         | 用户本地 Agent | Agent 调用 MCP 工具上传截图并触发分析。                             |
+| 上传图片润色结果     | 用户本地 Agent | Agent 调用 `rzcode_upload_image_polished_content`。                 |
+| 生成并下载文档       | 用户本地 Agent | Agent 触发文档生成并拿到下载结果。                                  |
 
 ## 前置准备
 
