@@ -13,7 +13,7 @@ params:
     title: "软著申请反直觉指南｜说明书、补正与通过率实战｜软宝宝"
     description: "软著申请避坑实战：说明书不是越厚越好，遇到 AI 误判如何处理，补正阶段如何降低返工。聚焦真实性与逻辑闭环，帮助提高一次通过率。"
     keywords: ["软著申请", "软件著作权", "软著补正", "软著说明书", "软著通过率", "软著避坑", "软宝宝"]
-    canonical: "https://rzcode.vip/docs/templates/mobanhua_buzheng/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/templates/mobanhua_buzheng/"
     robots: "index, follow"
 ---
 

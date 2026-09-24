@@ -11,7 +11,7 @@ params:
     title: "软件使用手册计费规则"
     description: "了解 RZCode 软件使用手册生成的 credits 计费规则与示例。"
     keywords: ["软件使用手册计费", "截图计费", "章节计费", "RZCode"]
-    canonical: "https://rzcode.vip/docs/concepts/pricing/02_software-manual/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/02_software-manual/"
     robots: "index, follow"
 ---
 

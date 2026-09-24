@@ -1,11 +1,12 @@
 ---
-title: "博客指南"
-description: "此页面包含产品的多用的技术和产品亮点，希望能和大家多交流解惑。"
+title: "软著技术分享 - 智能体技术与实战经验"
+description: "软宝宝技术博客：分享软著智能体的代码理解、文档生成、信息提取等核心技术方案，以及软著申请实战经验、产品动态和行业洞察。"
+keywords: ["技术分享", "软著技术", "智能体", "AI应用", "代码分析", "文档生成", "产品实践"]
+weight: 20
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
-weight: 999
 toc: true
 layout: "single" # Doks uses 'list' for the main section, but sub-pages use 'docs'
 type: "docs" # This tells Doks to use the documentation sidebar logic

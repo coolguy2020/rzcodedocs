@@ -14,7 +14,7 @@ params:
     title: "今日话题 | 软著申请讨论与分享 | 软宝宝"
     description: "软著申请的实战经验分享、工具对比、成本优化讨论和常见问题，与开发者和企业团队一起探讨如何高效完成软著申请。"
     keywords: ["软著话题", "软著申请经验", "软著工具", "软著成本", "软著讨论", "软宝宝"]
-    canonical: "https://rzcode.vip/docs/topics/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/topics/"
     robots: "index, follow"
 ---
 

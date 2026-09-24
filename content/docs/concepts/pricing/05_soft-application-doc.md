@@ -11,7 +11,7 @@ params:
     title: "帮助填写软著文档计费规则"
     description: "了解 RZCode 帮助填写软著文档生成的 credits 计费规则与示例。"
     keywords: ["软著材料生成", "软著文档计费", "帮助填写软著", "RZCode"]
-    canonical: "https://rzcode.vip/docs/concepts/pricing/05_soft-application-doc/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/05_soft-application-doc/"
     robots: "index, follow"
 ---
 

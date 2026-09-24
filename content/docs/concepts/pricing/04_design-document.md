@@ -11,7 +11,7 @@ params:
     title: "设计文档计费规则"
     description: "了解 RZCode 设计文档生成的 credits 计费规则与示例。"
     keywords: ["设计文档计费", "设计图计费", "章节计费", "RZCode"]
-    canonical: "https://rzcode.vip/docs/concepts/pricing/04_design-document/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/04_design-document/"
     robots: "index, follow"
 ---
 

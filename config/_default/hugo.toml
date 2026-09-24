@@ -34,11 +34,11 @@ copyRight = "Copyright (c) 2020-2026 伊尼艾"
   enable = true
 
 [outputs]
-  home = ["html", "rss", "sitemap", "searchIndex", "llms"]
+  home = ["html", "rss", "searchIndex", "llms"]
   page = ["html", "markdown"]
-  section = ["html", "rss", "sitemap"]
-  taxonomy = ["html", "rss", "sitemap"]
-  term = ["html", "rss", "sitemap"]
+  section = ["html", "rss"]
+  taxonomy = ["html", "rss"]
+  term = ["html", "rss"]
 
 [outputFormats.searchIndex]
   mediaType = "application/json"
@@ -57,15 +57,6 @@ copyRight = "Copyright (c) 2020-2026 伊尼艾"
   isHTML = false
   isPlainText = true
   mediaType = "text/plain"
-
-# Add output format for section sitemap.xml
-[outputFormats.sitemap]
-  mediaType = "application/xml"
-  baseName = "sitemap"
-  isHTML = false
-  isPlainText = true
-  noUgly = true
-  rel  = "sitemap"
 
 [sitemap]
   changefreq = "monthly"

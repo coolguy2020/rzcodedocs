@@ -14,6 +14,6 @@ params:
     title: "软宝宝（RZCode）定价与计费规则 "
     description: "查看软宝宝（RZCode）最新 credits 价格与计费规则，快速了解截图、章节与文档生成费用，并完成软著材料成本预估。"
     keywords: ["RZCode定价", "credits计费", "软著材料生成", "软件使用手册", "软宝宝定价", "软著申请"]
-    canonical: "https://rzcode.vip/docs/concepts/pricing/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/"
     robots: "index, follow"
 ---

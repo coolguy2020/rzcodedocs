@@ -13,7 +13,7 @@ params:
   seo:
     title: "软宝宝版本功能更新总览"
     description: "汇总软宝宝各上线版本的核心功能更新，快速了解产品从代码上传到申请表确认信息生成的能力演进。"
-    canonical: "https://rzcode.vip/blog/releases/"
+    canonical: "https://rzcode.vip/rzcodedocs/blog/releases/"
     robots: "index,follow"
 ---
 

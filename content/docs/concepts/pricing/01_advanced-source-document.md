@@ -11,7 +11,7 @@ params:
     title: "进阶源代码文档计费规则"
     description: "了解 RZCode 进阶源代码文档生成的 credits 计费规则与示例。"
     keywords: ["RZCode进阶源代码文档", "源代码文档计费", "credits计费"]
-    canonical: "https://rzcode.vip/docs/concepts/pricing/01_advanced-source-document/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/01_advanced-source-document/"
     robots: "index, follow"
 ---
 

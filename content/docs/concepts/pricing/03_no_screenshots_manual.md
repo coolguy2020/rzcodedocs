@@ -11,7 +11,7 @@ params:
     title: "无截图使用文档生成计费规则"
     description: "了解 RZCode 无截图使用文档生成的 credits 计费规则与示例。"
     keywords: ["无截图使用文档", "无截图计费", "使用文档生成", "RZCode"]
-    canonical: "https://rzcode.vip/docs/concepts/pricing/03_no_screenshots_manual/"
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/03_no_screenshots_manual/"
     robots: "index, follow"
 ---
 

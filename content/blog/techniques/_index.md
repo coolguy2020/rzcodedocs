@@ -1,6 +1,7 @@
 ---
-title: "软著智能体技术分享"
-description: "聚焦软著智能体的核心技术实践，分享代码解析、文档理解、信息抽取、提示词编排与质量校验等关键能力的设计思路。"
+title: "软著智能体技术深度解析 - 从代码理解到材料生成"
+description: "软宝宝技术团队深度分享软著智能体的设计实现：代码理解与结构化抽取、AI文档生成、智能信息提取、提示词优化等核心技术方案与工程实践。"
+keywords: ["智能体技术", "代码理解", "文档生成", "AI应用", "信息提取", "提示词", "质量校验", "RZCode技术"]
 summary: "软著智能体技术专题，持续更新真实研发实践。"
 lead: "从工程实现角度拆解软著智能体，帮助团队理解能力边界与落地方法。"
 date: 2026-03-22T08:00:00+08:00
@@ -13,7 +14,7 @@ params:
   seo:
     title: "软著智能体技术分享 | 软宝宝"
     description: "分享软著智能体在代码理解、说明文档生成、申请表信息提取与结果校验中的关键技术方案与工程实践。"
-    canonical: "https://rzcode.vip/blog/techniques/"
+    canonical: "https://rzcode.vip/rzcodedocs/blog/techniques/"
     robots: "index,follow"
 ---
 
@@ -45,3 +46,14 @@ params:
 
 - 本栏目内容面向技术团队与产品团队。
 - 所有自动生成结果仅作为辅助参考，正式申报前请以人工复核与官方要求为准。
+
+---
+
+## 了解更多
+
+想要体验这些技术在实际应用中的效果？查看[软宝宝软著申请工具](/soft-copyright-application-tool)如何帮助开发者快速生成软件著作权申请材料。
+
+或者从以下快速导航开始：
+- [快速指南：如何生成源代码文档](/docs/quick_guides/how_sourcecodedocs/)
+- [产品功能介绍](/docs/quick_guides/intro/)
+- [软著申请经验分享](/docs/topics/)

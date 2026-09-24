@@ -1,6 +1,6 @@
 ---
 title: "如何用软宝宝一键生成源代码文档"
-description: "自动生成符合软著申请要求的源代码文档。支持 ZIP 导入和本地项目，智能过滤第三方库，自动排版分页，几分钟完成整个流程。"
+description: "按照截图完成项目导入、代码筛选和Word文档下载，了解文件夹与ZIP上传的操作步骤，以及不方便上传源码时的本地协作方式。"
 keywords: "源代码文档,软件著作权,RZCode,软宝宝,代码文档生成,软著申请"
 date: 2026-07-08
 draft: false
@@ -8,8 +8,8 @@ weight: 20
 layout: "single"
 params:
   seo:
-    title: "如何用软宝宝一键生成源代码文档 | RZCode"
-    description: "自动生成符合软著申请要求的源代码文档。支持 ZIP 导入和本地项目，智能过滤第三方库，自动排版分页，几分钟完成整个流程。"
+    title: "软著源代码文档怎么生成？文件夹与ZIP操作教程 - 软宝宝"
+    description: "按照截图完成项目导入、代码筛选和Word文档下载，了解文件夹与ZIP上传的操作步骤，以及不方便上传源码时的本地协作方式。"
     keywords: ["源代码文档", "软件著作权", "RZCode", "软宝宝", "代码文档生成", "软著申请"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/quick_guides/how_sourcecodedocs/"
     robots: "index, follow"
@@ -223,11 +223,7 @@ Go + React
 
 ## 是否会上传我的代码？
 
-默认仅用于生成文档。
-
-整个生成过程不会公开你的源代码。
-
-如果部署企业版，还可以完全在企业内部服务器运行。
+使用网页的文件夹或 ZIP 导入时，代码会上传到平台处理。如果不方便上传源码，可查看[本地协作模式](/rzcodedocs/docs/concepts/local-cooperate/)：由本地 Agent 分析代码，再提交结构化结果。该模式仍可能使用云端模型、上传截图并调用云端文档生成，请先核对所用服务和上传内容。
 
 ---
 
@@ -277,3 +273,7 @@ Go + React
 ✅ 自动生成 Word
 
 让开发者把更多时间留给真正重要的事情——开发软件，而不是整理文档。
+
+## 下一步
+
+[开始生成代码文档](https://rzcode.vip/)；如需使用手册或设计文档，可先查看[功能介绍](/rzcodedocs/docs/quick_guides/intro/)和[计费规则](/rzcodedocs/docs/concepts/pricing/00_overall/)。
