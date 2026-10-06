@@ -22,6 +22,7 @@ description: 帮助用户为软件著作权申请创建符合规范的项目名�
 | 平台 | platform | 多功能综合平台 |
 | 插件 | plugin | 扩展或增强功能 |
 | 中间件 | middleware | 技术基础设施 |
+| 小程序 | miniapp | 小程序 |
 | APP | app | 移动应用 |
 
 ### 命名示例
