@@ -6,7 +6,7 @@ date: 2026-07-16T09:00:00+08:00
 lastmod: 2026-07-17T09:00:00+08:00
 draft: false
 weight: 60
-contributors: ["据吉团队"]
+contributors: ["软宝宝团队"]
 menu:
   docs:
     parent: "docs"
