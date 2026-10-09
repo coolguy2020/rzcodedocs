@@ -1,11 +1,15 @@
 ---
 title: "脚印功能：分享您的软著申请历程"
 description: "了解软宝宝脚印功能如何帮助您记录软著申请全过程，保护隐私同时为其他申请人提供参考。支持按节点记录，一键分享申请路线，让补正经验可沉淀。"
+summary: "用脚印记录软著申请每一步关键节点，分享申请经历与补正经验，形成知识社区。"
 lead: "从材料准备到证书到手，用脚印记录每一步关键节点，让您的申请经历成为他人的路标。"
 date: 2026-06-16T09:00:00+08:00
 lastmod: 2026-06-16T09:00:00+08:00
 draft: false
 weight: 70
+layout: "single"
+type: "docs"
+toc: true
 contributors: ["软宝宝团队"]
 menu:
   docs:
@@ -13,11 +17,11 @@ menu:
     name: "脚印功能"
 params:
   seo:
-    title: "脚印功能：分享您的软著申请历程 | 软宝宝"
+    title: "脚印功能：记录并分享您的软著申请历程｜软宝宝"
     description: "软宝宝脚印功能帮助申请人记录软著申请全过程，保护隐私，分享补正经验，形成知识社区。了解如何开启脚印、记录节点、公开分享。"
-    keywords: "软著脚印,申请历程,补正经验,时间轴,软著申请,隐私保护"
-    canonical: ""
-    robots: "index,follow"
+    keywords: ["软著申请", "脚印功能", "申请历程", "补正经验", "软著工具", "软宝宝", "时间轴", "隐私保护"]
+    canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/footprints/"
+    robots: "index, follow"
 ---
 
 # 什么是软著申请“脚印”？

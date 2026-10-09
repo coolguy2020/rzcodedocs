@@ -3,14 +3,19 @@ title: "软著加急通道使用说明"
 linkTitle: "加急通道"
 description: "了解软宝宝的软著加急通道如何使用、如何付费、如何准备材料以及如何跟踪加急进度。"
 summary: "查看软著加急通道的操作流程、费用说明和常见问题。"
+lead: "时间紧张？通过软著加急通道，缩短软件著作权申请周期，快速获得证书。"
 weight: 70
 date: 2026-10-08T10:00:00+08:00
 lastmod: 2026-10-08T10:00:00+08:00
+draft: false
+layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软著加急通道使用说明"
-    description: "了解如何使用软宝宝加急通道进行软件著作权申请加急、支付与材料提交。"
-    keywords: ["软著加急", "软件著作权加急", "加急通道", "软宝宝加急"]
+    title: "软著加急通道使用说明｜快速申请软件著作权｜软宝宝"
+    description: "详细了解如何使用软宝宝加急通道进行软件著作权申请加急、支付与材料提交，包含费用说明、流程步骤和常见问题解答。"
+    keywords: ["软著申请", "软著加急", "软件著作权加急", "加急通道", "软宝宝加急", "快速申请", "软宝宝"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/quick_guides/expedite/"
     robots: "index, follow"
 ---

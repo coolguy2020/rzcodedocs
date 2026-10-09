@@ -1,16 +1,21 @@
 ---
-title: "如何用软宝宝一键生成源代码文档"
-description: "按照截图完成项目导入、代码筛选和Word文档下载，了解文件夹与ZIP上传的操作步骤，以及不方便上传源码时的本地协作方式。"
-keywords: "源代码文档,软件著作权,RZCode,软宝宝,代码文档生成,软著申请"
-date: 2026-07-08
+title: "如何生成软著源代码文档？完整操作指南"
+description: "按照截图完成项目导入、代码筛选和Word文档下载，了解文件夹与ZIP上传的操作步骤，以及不方便上传源码时的本地协作方式，快速生成符合版权局要求的源代码文档。"
+summary: "按照教程上传项目文件，系统自动分析代码并生成规范的源代码文档Word版。"
+lead: "从文件夹或ZIP上传开始，通过智能代码筛选，快速生成符合软著申请要求的源代码文档。"
+keywords: ["源代码文档", "软件著作权", "RZCode", "软宝宝", "代码文档生成", "软著申请"]
+date: 2026-07-08T08:00:00+08:00
+lastmod: 2026-10-09T00:00:00+08:00
 draft: false
 weight: 20
 layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软著源代码文档怎么生成？文件夹与ZIP操作教程 - 软宝宝"
-    description: "按照截图完成项目导入、代码筛选和Word文档下载，了解文件夹与ZIP上传的操作步骤，以及不方便上传源码时的本地协作方式。"
-    keywords: ["源代码文档", "软件著作权", "RZCode", "软宝宝", "代码文档生成", "软著申请"]
+    title: "软著源代码文档生成教程｜文件夹/ZIP上传步骤｜软宝宝"
+    description: "详细教程：如何用软宝宝生成符合软件著作权申请要求的源代码文档，包含文件夹上传、ZIP上传、代码筛选与Word下载全流程。"
+    keywords: ["软著申请", "源代码文档", "软件著作权", "RZCode", "软宝宝", "代码文档生成", "软著工具", "软著材料"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/quick_guides/how_sourcecodedocs/"
     robots: "index, follow"
 ---

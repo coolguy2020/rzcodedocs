@@ -9,11 +9,13 @@ lastmod: 2026-07-15T10:00:00+08:00
 draft: false
 weight: 70
 layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软著申请时间线 | 软宝宝"
-    description: "完整解析软件著作权申请流程的时间线，涵盖从提交、审查、补正到下证的各阶段周期与转换规则。"
-    keywords: ["软著申请", "时间线", "软著流程", "软著审查", "补正周期", "软宝宝"]
+    title: "软著申请时间线详解｜各阶段周期与流程｜软宝宝"
+    description: "完整解析软件著作权申请流程的时间线，涵盖从提交、审查、补正到下证的各阶段周期与转换规则，帮助合理规划申请进度。"
+    keywords: ["软著申请", "软件著作权", "时间线", "软著流程", "软著审查", "补正周期", "软宝宝", "申请进度"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/templates/shijianxian/"
     robots: "index, follow"
 ---

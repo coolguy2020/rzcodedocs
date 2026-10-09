@@ -8,11 +8,13 @@ lastmod: 2026-06-15T10:30:00+08:00
 draft: false
 weight: 40
 layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软件著作权登记｜材料准备与登记表填写｜软宝宝"
-    description: "软著登记完整教程：详细讲解登记所需材料、技术方案、源代码说明、登记表填写步骤，以及常见问题解答，助力首次登记一次通过。"
-    keywords: ["软著登记", "软件著作权登记", "软著材料准备", "技术方案", "源代码说明", "登记表填写"]
+    title: "软著申请视频教程｜材料准备与登记表填写｜软宝宝"
+    description: "软著申请视频教程：详细讲解登记所需材料、技术方案、源代码说明、登记表填写步骤，以及常见问题解答，助力首次登记一次通过。"
+    keywords: ["软著登记", "软著申请", "软件著作权登记", "软件著作权", "软著材料准备", "技术方案", "视频教程"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/templates/ruanzhu_video/"
     robots: "index, follow"
 ---

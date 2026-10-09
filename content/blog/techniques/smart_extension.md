@@ -1,11 +1,14 @@
 ---
 title: "智能过滤文件类型是怎么做到的？"
 description: "本文系统讲解软著智能体如何实现文件类型智能过滤，覆盖规则引擎、优先级策略、语言识别、二进制检测与可解释输出。"
+summary: "详解智能过滤如何识别源码、排除无关文件、处理边界场景。"
 lead: "从目录扫描到最终可下载代码包，拆解智能过滤文件类型的完整技术链路。"
 date: 2026-06-15T15:30:00+08:00
 lastmod: 2026-06-15T15:30:00+08:00
 draft: false
-layout: single
+layout: "single"
+type: "blog"
+toc: true
 contributors: ["软宝宝团队"]
 tags: ["智能过滤", "代码分析", "软著智能体", "工程实践"]
 categories: ["平台架构", "产品实践"]
@@ -14,10 +17,11 @@ menu:
     parent: "blog"
 params:
   seo:
-    title: "智能过滤文件类型是怎么做到的 | 软著智能体技术分享"
+    title: "智能过滤文件类型是怎么做到的？｜软著智能体技术分享｜软宝宝"
     description: "详解软著智能体文件过滤能力：如何识别源码、排除无关文件、处理边界场景，并输出可解释的过滤结果。"
-    canonical: ""
-    robots: "index,follow"
+    keywords: ["智能过滤", "代码分析", "软著智能体", "工程实践", "软宝宝", "技术分享", "平台架构"]
+    canonical: "https://rzcode.vip/rzcodedocs/blog/techniques/smart_extension/"
+    robots: "index, follow"
 ---
 
 # 智能过滤文件类型是怎么做到的

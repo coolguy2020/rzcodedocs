@@ -2,17 +2,19 @@
 title: "2026主流软著文档生成平台横向评测"
 description: "对比 软宝宝（RZCode）、软著宝、软著帮、CopyAIGC、易软著等主流平台，从真实源码分析、截图识别、说明书生成到适用场景，帮助你选择更适合的软件著作权材料生成工具。"
 summary: "一文看懂主流软著文档生成平台差异：能力对比、定位分析与选型建议。"
-lead: "基于2027年315新规，横向评测主流软著文档生成平台，帮助个人开发者、企业和代理机构做出更合适的选型。"
+lead: "基于真实需求，横向评测主流软著文档生成平台，帮助个人开发者、企业和代理机构做出更合适的选型。"
 date: 2026-06-24T09:00:00+08:00
 lastmod: 2026-06-24T09:00:00+08:00
 draft: false
 weight: 10
 layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软著文档生成平台对比（2026）｜软宝宝（RZCode）、软著宝、软著帮、CopyAIGC 评测"
-    description: "2026 软著文档生成平台横评：对比 软宝宝（RZCode）、软著宝、软著帮、CopyAIGC、易软著在源码分析、截图识别、说明书生成与批量处理上的差异，附适用人群与选型建议。"
-    keywords: ["软著文档生成平台对比", "软宝宝（RZCode）", "软著宝", "软著帮", "CopyAIGC", "软件著作权申请工具", "软著说明书生成", "软著代码文档生成"]
+    title: "软著申请工具对比评测｜软宝宝（RZCode）vs 软著宝 vs 软著帮 vs CopyAIGC｜2026"
+    description: "详细对比2026年主流软著申请工具，覆盖源码分析、说明书生成、截图识别等能力维度，帮助团队快速选型适合的软件著作权材料生成工具。"
+    keywords: ["软著申请", "软件著作权", "软著工具", "软著文档生成平台对比", "软宝宝", "RZCode", "软著宝", "软著帮", "CopyAIGC", "软著申请工具"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/quick_guides/comparison/"
     robots: "index, follow"
 ---

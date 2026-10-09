@@ -1,5 +1,5 @@
 ---
-title: "今日话题"
+title: "今日话题 - 软著申请讨论与分享"
 linkTitle: "今日话题"
 description: "软著申请行业观察、经验分享、工具实践和常见问题讨论，与社区一起探讨软著申请中的真实场景和解决方案。"
 summary: "实时分享软著申请经验和行业洞察。"
@@ -9,11 +9,13 @@ lastmod: 2026-06-18T12:00:00+08:00
 draft: false
 weight: 20
 layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "今日话题 | 软著申请讨论与分享 | 软宝宝"
+    title: "今日话题｜软著申请讨论与分享｜软宝宝"
     description: "软著申请的实战经验分享、工具对比、成本优化讨论和常见问题，与开发者和企业团队一起探讨如何高效完成软著申请。"
-    keywords: ["软著话题", "软著申请经验", "软著工具", "软著成本", "软著讨论", "软宝宝"]
+    keywords: ["软著申请", "软著话题", "软著申请经验", "软著工具", "软著成本", "软著讨论", "软宝宝", "行业观察"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/topics/"
     robots: "index, follow"
 ---

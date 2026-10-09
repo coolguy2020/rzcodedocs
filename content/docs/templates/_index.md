@@ -9,11 +9,13 @@ lastmod: 2026-06-15T12:00:00+08:00
 draft: false
 weight: 20
 layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软著政策解读 | 软宝宝"
+    title: "软著政策解读与申请指南｜材料规范与通过率｜软宝宝"
     description: "从申请材料规范、名称一致性、签章要求到补正原因，全面解读软件著作权政策要点，帮助企业与开发者提升申报效率。"
-    keywords: ["软著政策解读", "软件著作权申请", "软著补正", "软著材料规范", "软宝宝", "软著流程"]
+    keywords: ["软著申请", "软件著作权", "软著政策解读", "软著补正", "软著材料规范", "软宝宝", "软著流程", "申请指南"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/templates/"
     robots: "index, follow"
 ---

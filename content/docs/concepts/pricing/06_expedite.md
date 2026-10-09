@@ -4,16 +4,21 @@ title: "「加急通道」定价说明"
 linkTitle: "加急费用"
 description: "软宝宝加急通道定价说明：单次加急费用为 670 元，其中 600 元为官费，70 元为服务费。"
 summary: "查看软著申请加急通道的官方定价与费用构成。"
+lead: "了解软著申请加急通道的费用构成，快速规划加急申请预算。"
 weight: 90
 date: 2026-10-08T10:00:00+08:00
 lastmod: 2026-10-08T10:00:00+08:00
+draft: false
+layout: "single"
+type: "docs"
+toc: true
 
 # SEO 管理模块
 params:
   seo:
-    title: "软宝宝软件著作权加急通道定价说明"
-    description: "了解软宝宝软件著作权申请加急通道的价格构成，单次加急费为 670 元，其中官费 600 元、服务费 70 元。"
-    keywords: ["软著加急", "加急通道价格", "软件著作权加急费用", "软宝宝价格"]
+    title: "软宝宝软件著作权加急通道定价说明｜费用构成与规划"
+    description: "了解软宝宝软件著作权申请加急通道的价格构成，单次加急费为 670 元，其中官费 600 元、服务费 70 元，快速规划预算。"
+    keywords: ["软著申请", "软著加急", "加急通道价格", "软件著作权加急费用", "软宝宝价格", "官费", "服务费"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/pricing/06_expedite/"
     robots: "index, follow"
 ---

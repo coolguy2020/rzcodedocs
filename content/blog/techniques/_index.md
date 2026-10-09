@@ -7,15 +7,18 @@ lead: "从工程实现角度拆解软著智能体，帮助团队理解能力边�
 date: 2026-03-22T08:00:00+08:00
 lastmod: 2026-06-15T15:00:00+08:00
 draft: false
-# 关键修复：添加贡献者，防止 blog-meta.html 报错
+weight: 20
+layout: "single"
+type: "blog"
+toc: true
 contributors: ["软宝宝团队"]
-layout: "single" # 关键：这会自动列出该目录下的子页面
 params:
   seo:
-    title: "软著智能体技术分享 | 软宝宝"
+    title: "软著智能体技术分享｜代码理解与文档生成｜软宝宝"
     description: "分享软著智能体在代码理解、说明文档生成、申请表信息提取与结果校验中的关键技术方案与工程实践。"
+    keywords: ["智能体技术", "代码理解", "文档生成", "AI应用", "信息提取", "软宝宝", "RZCode", "技术分享"]
     canonical: "https://rzcode.vip/rzcodedocs/blog/techniques/"
-    robots: "index,follow"
+    robots: "index, follow"
 ---
 
 ## 栏目定位

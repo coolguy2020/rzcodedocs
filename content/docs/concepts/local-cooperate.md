@@ -1,11 +1,15 @@
 ---
-title: "本地协作模式：源代码不离开本地"
+title: "本地协作模式：源代码不离开本地也能申请软著"
 description: "软宝宝本地协作模式让您无需上传源代码，仅通过本地 Agent 分析代码并上传结构化结果，即可在网页端完成软著材料生成。"
-lead: ""
+summary: "代码本地分析，结构化数据云端生成，完全保护你的源代码隐私与安全。"
+lead: "代码不上传，隐私更有保障。本地协作模式让你的源代码永远留在本地，只有分析结果上传到云端。"
 date: 2026-07-16T09:00:00+08:00
 lastmod: 2026-07-17T09:00:00+08:00
 draft: false
 weight: 60
+layout: "single"
+type: "docs"
+toc: true
 contributors: ["软宝宝团队"]
 menu:
   docs:
@@ -13,11 +17,11 @@ menu:
     name: "本地协作模式"
 params:
   seo:
-    title: "本地协作模式：源代码不离开本地也能申请软著 | 软宝宝"
-    description: "软宝宝本地协作模式让您无需上传源代码，仅通过本地 Agent 分析代码并上传结构化结果，即可在网页端完成软著材料生成。"
-    keywords: "软著本地协作,源代码隐私,本地 Agent,软著材料生成,软宝宝"
+    title: "本地协作模式：源代码不离开本地也能申请软著｜软宝宝"
+    description: "软宝宝本地协作模式让您无需上传源代码，仅通过本地 Agent 分析代码并上传结构化结果，即可在网页端完成软著材料生成，完全保护代码隐私。"
+    keywords: ["软著申请", "本地协作", "源代码隐私", "本地 Agent", "软著材料生成", "软宝宝", "安全申请", "软件著作权"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/concepts/local-cooperate/"
-    robots: "index,follow"
+    robots: "index, follow"
 ---
 
 # 本地协作模式：源代码不离开本地也能申请软著

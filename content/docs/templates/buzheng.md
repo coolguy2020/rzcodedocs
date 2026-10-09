@@ -7,12 +7,14 @@ date: 2026-03-22T08:00:00+08:00
 lastmod: 2026-06-15T10:30:00+08:00
 draft: false
 weight: 30
-layout: "single" # 关键：这会自动列出该目录下的子页面
+layout: "single"
+type: "docs"
+toc: true
 params:
   seo:
-    title: "软著补正避坑指南 | 软宝宝"
-    description: "总结软著申请常见补正原因，覆盖签章、命名、简称、开源重复率和留档要点，帮助减少返工。"
-    keywords: ["软著补正", "软著申请", "软件著作权", "软著避坑", "软著材料", "软宝宝"]
+    title: "软著补正避坑指南｜高频补正问题与解决方案｜软宝宝"
+    description: "总结软著申请常见补正原因，覆盖签章、命名、简称、开源重复率和留档要点，帮助减少返工，提升一次通过率。"
+    keywords: ["软著补正", "软著申请", "软件著作权", "软著避坑", "软著材料", "软宝宝", "补正指南"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/templates/buzheng/"
     robots: "index, follow"
 ---

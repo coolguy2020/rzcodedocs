@@ -1,6 +1,22 @@
 ---
-title: 软著项目命名规范指南
-description: 帮助用户为软件著作权申请创建符合规范的项目名称
+title: "软著申请项目命名规范完全指南"
+description: "软著申请项目命名规范详解：科学选择项目名称结尾词、避免常见错误、提高审核通过率。涵盖推荐命名结构、行业标准结尾词与实际案例。"
+summary: "掌握软著申请中的项目命名规范，选择合适的结尾词，显著提升审核通过率。"
+lead: "项目命名虽然看似简单，但命名规范对软著审核通过率的影响往往被低估。本指南教你科学选择项目名称。"
+date: 2026-06-24T08:00:00+08:00
+lastmod: 2026-10-09T00:00:00+08:00
+draft: false
+weight: 30
+layout: "single"
+type: "docs"
+toc: true
+params:
+  seo:
+    title: "软著项目命名规范｜结尾词选择｜通过率提升｜软宝宝"
+    description: "详解软件著作权申请中的项目命名规范：推荐的命名结构、标准结尾词（软件、系统、平台、APP等）、常见错误与实际案例，帮助提升审核通过率。"
+    keywords: ["软著申请", "软件著作权", "项目命名", "命名规范", "软著工具", "软著材料", "RZCode", "软宝宝"]
+    canonical: "https://rzcode.vip/rzcodedocs/docs/quick_guides/project_naming_guide/"
+    robots: "index, follow"
 ---
 
 # 软著项目命名规范指南

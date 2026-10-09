@@ -6,15 +6,18 @@ lead: "这里汇总了软宝宝每次上线的核心能力，帮助你快速了�
 date: 2026-03-22T08:00:00+08:00
 lastmod: 2026-06-15T14:30:00+08:00
 draft: false
-# 关键修复：添加贡献者，防止 blog-meta.html 报错
-contributors: ["软宝宝团队"]
+weight: 10
 layout: "single"
+type: "blog"
+toc: true
+contributors: ["软宝宝团队"]
 params:
   seo:
-    title: "软宝宝版本功能更新总览"
+    title: "软宝宝版本功能更新总览｜产品演进与功能发布｜软宝宝"
     description: "汇总软宝宝各上线版本的核心功能更新，快速了解产品从代码上传到申请表确认信息生成的能力演进。"
+    keywords: ["软著申请", "版本发布", "产品更新", "功能演进", "软宝宝", "RZCode"]
     canonical: "https://rzcode.vip/rzcodedocs/blog/releases/"
-    robots: "index,follow"
+    robots: "index, follow"
 ---
 
 ## 软宝宝各版本上线功能介绍

@@ -1,19 +1,20 @@
 ---
 title: "软著撤回流程步骤【图文详解】"
-description: "版权中心在线撤回申请全流程图文教程，包含注意事项与常见问题。"
-summary: ""
+description: "版权中心在线撤回申请全流程图文教程，包含身份验证、签章页生成与上传步骤，以及注意事项与常见问题，帮助在 1–3 个工作日内完成撤回。"
+summary: "详解软著撤回申请的完整操作流程，帮助你快速取消或修改申请。"
+lead: "申请有误需要撤回？了解版权中心在线撤回的完整流程，正常情况下 1～3 个工作日即可完成。"
 date: 2026-07-14T00:00:00+08:00
 lastmod: 2026-07-14T00:00:00+08:00
 draft: false
 weight: 60
-toc: true
 layout: "single"
 type: "docs"
+toc: true
 params:
   seo:
-    title: "软著撤回流程详解 "
+    title: "软著撤回流程详解｜版权中心在线撤回步骤｜软宝宝"
     description: "版权中心在线撤回申请全流程图文教程，包含身份验证、签章页生成与上传步骤，以及注意事项与常见问题，帮助在 1–3 个工作日内完成撤回。"
-    keywords: ["撤回", "撤回申请", "软件著作权", "版权中心", "软宝宝", "撤回流程"]
+    keywords: ["撤回", "撤回申请", "软件著作权", "版权中心", "软宝宝", "撤回流程", "软著申请"]
     canonical: "https://rzcode.vip/rzcodedocs/docs/templates/chehui_gongneng/"
     robots: "index, follow"
 ---

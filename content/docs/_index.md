@@ -1,21 +1,23 @@
 ---
 title: "文档指南 - 软宝宝软著申请工具"
 description: "软宝宝文档中心：包含软著申请工具使用指南、源代码文档生成教程、操作说明书制作方法、软著申请流程和常见问题解答。"
-keywords: ["软著申请", "软件著作权", "软著工具", "软著材料", "代码文档", "使用指南", "申请流程"]
-summary: ""
+keywords: ["软著申请", "软件著作权", "软著工具", "软著材料", "代码文档", "使用指南", "申请流程", "RZCode", "软宝宝"]
+summary: "完整的软著申请工具使用文档和软件著作权申请指南。"
+lead: "从快速上手到深度应用，了解如何用软宝宝快速生成符合版权局要求的软著申请材料。"
 date: 2023-09-07T16:12:03+02:00
-lastmod: 2023-09-07T16:12:03+02:00
+lastmod: 2026-10-09T00:00:00+08:00
 draft: false
 weight: 999
 toc: true
-layout: "single" # Doks uses 'list' for the main section, but sub-pages use 'docs'
-type: "docs" # This tells Doks to use the documentation sidebar logic
+layout: "single"
+type: "docs"
 params:
   seo:
-    title: "" # custom title (optional)
-    description: "" # custom description (recommended)
-    canonical: "" # custom canonical URL (optional)
-    robots: "" # custom robot tags (optional)
+    title: "软著申请文档指南｜软宝宝（RZCode）使用教程｜软件著作权"
+    description: "软宝宝完整文档中心：包含软著申请工具使用指南、源代码文档生成、操作说明书制作、软著申请流程和常见问题解答，助力快速完成软件著作权登记。"
+    keywords: ["软著申请", "软件著作权", "软著工具", "RZCode", "软宝宝", "代码文档", "使用指南", "申请流程"]
+    canonical: "https://rzcode.vip/rzcodedocs/docs/"
+    robots: "index, follow"
   section:
     title: "Documentation"
     iconName: "book"
