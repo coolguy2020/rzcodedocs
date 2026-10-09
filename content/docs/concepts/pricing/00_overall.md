@@ -43,6 +43,7 @@ params:
 - [无截图软件使用手册计费规则](./03_no_screenshots_manual/)
 - [设计文档计费规则](./04_design-document/)
 - [帮助填写软著文档计费规则](./05_soft-application-doc/)
+- [加急通道定价说明](./06_expedite/)
 
 ## 4. 全局代码扫描计费
 
