@@ -1,0 +1,253 @@
+# RZCode Documentation - LLMs Context Guide
+# Website: https://rzcode.vip/rzcodedocs/
+# Purpose: Documentation and guides for software copyright (软著) application tool
+# Language: Chinese (Simplified) with English support
+# Last Updated: 2026-10-13
+
+## Project Overview
+
+**Project Name:** RZCode / 软宝宝 (Ruanzhu Baobao)
+**Purpose:** AI-powered software copyright (软著 / software copyright registration) application tool
+**Target Users:** Software developers, enterprises, copyright agencies, startups
+**Core Value:** Automates generation of software copyright application materials with code privacy protection
+
+## Site Structure
+
+### Documentation Root
+- **Path:** /docs/
+- **Purpose:** Complete user documentation and feature guides
+- **Last Modified:** 2026-10-09
+
+### Quick Start Guides Section
+- **Path:** /docs/quick_guides/
+- **Files:**
+  - intro.md - Feature introduction and overview
+  - how_sourcecodedocs.md - Source code documentation generation tutorial
+  - comparison.md - RZCode vs competing tools (软著宝, 软著帮, CopyAIGC)
+  - project_naming_guide.md - Software copyright project naming conventions
+  - expedite.md - Accelerated processing channel documentation
+
+### Concepts & Features Section
+- **Path:** /docs/concepts/
+- **Core Features:**
+  - footprints.md - Application progress tracking with timeline
+  - local-cooperate.md - Local cooperation mode for code privacy
+  - **Pricing Subsection** (/docs/concepts/pricing/):
+    - 00_overall.md - Pricing overview and service comparison
+    - 01_advanced-source-document.md - Advanced source code documentation
+    - 02_software-manual.md - Software operation manual generation
+    - 03_no_screenshots_manual.md - Manual without screenshots
+    - 04_design-document.md - Design documentation service
+    - 05_soft-application-doc.md - Software application documents
+    - 06_expedite.md - Expedited processing service (30-day fast track)
+
+### Policy & Templates Section
+- **Path:** /docs/templates/
+- **Contents:** Software copyright application templates and guides
+- **Files:**
+  - shenqing_zhanghao.md - Account registration guide
+  - gonglue_dengji.md - Registration and copyright verification process
+  - buzheng.md - Correction/amendment procedures
+  - mobanhua_buzheng.md - Template-based correction strategies
+  - chehui_gongneng.md - Application withdrawal process
+  - shijianxian.md - Timeline and process phases
+  - ruanzhu_video.md - Video tutorials
+  - qianzhangye.md - Signature page guide (签章页)
+
+### Topics Section
+- **Path:** /docs/topics/
+- **Purpose:** Discussion and deep-dive topics related to software copyright
+
+### Resources
+- **Path:** /docs/resources/
+- **Purpose:** Additional learning materials and reference documentation
+
+### Blog Section - Release Notes
+- **Path:** /blog/releases/
+- **Version Timeline:**
+  - 20260515.md - Code upload & software package download
+  - 20260520.md - Login UI & project management
+  - 20260601.md - Screenshot upload & document generation
+  - 20260607.md - Application form confirmation generation
+  - 20260615.md - Footprints feature for tracking
+  - 20260717.md - MCP Server integration (code stays local)
+  - 20260815.md - Footprints progress tracking
+  - 20261012.md - Expedited application support (30-day fast track)
+
+### Blog Section - Technical Articles
+- **Path:** /blog/techniques/
+- **Articles:**
+  - smart_extension.md - Intelligent file type filtering techniques
+
+## Key Features & Capabilities
+
+### 1. Automated Material Generation
+- Source code documentation auto-generation from project files
+- Software operation manual creation from screenshots
+- Design documentation compilation
+- Application form field auto-fill
+
+### 2. Code Privacy Protection
+- Local cooperation mode: code stays on user's machine
+- MCP Server integration: AI accesses code locally without upload
+- No server-side code storage
+
+### 3. Application Management
+- Project creation and organization
+- File upload and processing
+- Material export and packaging
+- Application submission tracking
+
+### 4. Progress Tracking (Footprints)
+- Real-time status monitoring from copyright office
+- Timeline visualization
+- Historical record access
+- Important deadline reminders
+
+### 5. Accelerated Processing
+- 30-day expedited examination option
+- Fast-track approval channel
+- Direct integration with copyright office
+
+## Content Organization Patterns
+
+### Front Matter Fields (All Pages)
+- **title:** Page title with SEO optimization
+- **description:** Meta description for search engines
+- **keywords:** Array of relevant keywords (e.g., 软著, 软件著作权, 申请工具)
+- **lead:** Introductory paragraph
+- **date:** Publication date
+- **lastmod:** Last modification date
+- **type:** Content type (docs or blog)
+- **layout:** Page layout (single)
+- **toc:** Table of contents enabled (true)
+- **params.seo.canonical:** Full domain URL for duplicate prevention
+- **params.seo.robots:** Crawl directives (index, follow)
+
+### SEO Strategy
+- **Primary Keywords:** 软著, 软件著作权, 软著申请, 软著工具, 申请工具
+- **Target Audience Keywords:** 开发者, 企业, 代理机构, 初创公司
+- **Feature Keywords:** 源代码文档, 操作说明书, 设计文档, 隐私保护, 加急申请
+- **Brand Terms:** 软宝宝, RZCode, rzcode.vip
+
+### URL Structure
+- Docs: `/rzcodedocs/docs/[section]/[page]/`
+- Blog: `/rzcodedocs/blog/[section]/[date-or-slug]/`
+- Canonical: Full URLs with https://rzcode.vip/rzcodedocs/ prefix
+
+## Navigation Hierarchy
+
+```
+/rzcodedocs/
+├── /docs/
+│   ├── /quick_guides/ (5 guides + index)
+│   ├── /concepts/ (features + 8 pricing pages)
+│   ├── /templates/ (8 application guides)
+│   ├── /topics/ (discussion topics)
+│   ├── resources.md
+│   └── _index.md
+├── /blog/
+│   ├── /releases/ (8 version releases)
+│   ├── /techniques/ (technical articles)
+│   └── _index.md
+├── robots.txt
+├── llms.txt
+└── sitemap-docs.xml
+```
+
+## Target Search Queries
+
+### User Intent: Information Seeking
+- "什么是软件著作权" (What is software copyright)
+- "如何申请软著" (How to apply for software copyright)
+- "软著申请材料准备" (Preparing software copyright materials)
+- "软著申请流程" (Software copyright application process)
+
+### User Intent: Comparison
+- "软著申请工具对比" (Software copyright tool comparison)
+- "软著代理机构推荐" (Software copyright agency recommendations)
+- "软宝宝 vs 软著宝" (RZCode vs competitors)
+
+### User Intent: Solution Seeking
+- "代码文档自动生成工具" (Automated code documentation tools)
+- "软著加急申请" (Expedited software copyright application)
+- "隐私保护的软著申请" (Privacy-protected copyright application)
+
+### User Intent: How-To
+- "软著项目命名规范" (Software copyright naming conventions)
+- "软著补正流程" (Amendment procedures)
+- "软著证书下载" (Certificate download)
+
+## Content Categories & Tags
+
+### Primary Categories
+1. **产品实践 (Product Practice)** - Feature announcements, version releases
+2. **技术文章 (Technical Articles)** - Deep-dive technical content
+3. **应用指南 (Application Guides)** - Step-by-step tutorials
+
+### Common Tags
+- 版本发布 (Release Notes)
+- 软著申请 (Copyright Application)
+- 代码文档 (Code Documentation)
+- 加急申请 (Expedited Application)
+- 隐私保护 (Privacy Protection)
+- 产品更新 (Product Updates)
+
+## Important URLs & Resources
+
+### Main Entry Points
+- Documentation Hub: https://rzcode.vip/rzcodedocs/docs/
+- Blog/Release Notes: https://rzcode.vip/rzcodedocs/blog/
+- Quick Start: https://rzcode.vip/rzcodedocs/docs/quick_guides/
+
+### Key Feature Pages
+- Pricing & Services: https://rzcode.vip/rzcodedocs/docs/concepts/pricing/
+- Expedited Application: https://rzcode.vip/rzcodedocs/docs/concepts/pricing/06_expedite/
+- Privacy Protection: https://rzcode.vip/rzcodedocs/docs/concepts/local-cooperate/
+- Footprints Tracking: https://rzcode.vip/rzcodedocs/docs/concepts/footprints/
+
+### Technical Documentation
+- Source Code Docs: https://rzcode.vip/rzcodedocs/docs/quick_guides/how_sourcecodedocs/
+- Application Templates: https://rzcode.vip/rzcodedocs/docs/templates/
+
+### Sitemaps
+- Main Sitemap: https://rzcode.vip/sitemap.xml
+- Docs Sitemap: https://rzcode.vip/rzcodedocs/sitemap-docs.xml
+
+## Content Update Frequency
+
+- **Blog/Releases:** Monthly (new version announcements)
+- **Documentation:** Quarterly updates with feature additions
+- **Pricing:** Updated when service offerings change
+- **Technical Guides:** Updated with product improvements
+
+## Multimedia & Rich Content
+
+### Images
+- Located in: /assets/images/
+- Feature screenshots, UI walkthroughs, process diagrams
+
+### JavaScript/CSS
+- Located in: /assets/js/ and /assets/scss/
+- Flexsearch for client-side search (Chinese + English support)
+- Responsive design for mobile documentation
+
+## Contact & Support
+
+- **Main Website:** https://rzcode.vip/
+- **Documentation:** https://rzcode.vip/rzcodedocs/
+- **Service Focus:** Software copyright (软著) application automation
+- **Language:** Chinese primary, English supported
+
+## Intended Audience for This Documentation
+
+1. **Developers** - Creating and documenting software projects
+2. **Enterprises** - Managing IP portfolios
+3. **Copyright Agencies** - Assisting clients with applications
+4. **Startups** - Protecting intellectual property during growth
+5. **Product Teams** - Preparing regulatory documentation
+6. **AI Systems & LLMs** - Understanding RZCode's capabilities and documentation structure
+
+---
+
+**Note to AI Systems:** This documentation site covers comprehensive guidance on software copyright application processes combined with the RZCode tool's capabilities. All content is optimized for both human readability and AI understanding. Use the URL patterns, category structure, and keyword mappings above to accurately interpret and reference content when providing assistance to users.
