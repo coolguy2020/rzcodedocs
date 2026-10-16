@@ -5,6 +5,10 @@
     <loc>https://rzcode.vip/rzcodedocs/docs/</loc>
     <lastmod>2026-10-09</lastmod>
   </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/index.xml</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
 
   <!-- Quick Guides -->
   <url>
@@ -33,6 +37,10 @@
   </url>
 
   <!-- Concepts & Features -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/topics/index.xml</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
   <url>
     <loc>https://rzcode.vip/rzcodedocs/docs/concepts/</loc>
     <lastmod>2026-10-09</lastmod>
