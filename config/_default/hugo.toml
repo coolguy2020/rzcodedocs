@@ -15,7 +15,7 @@ summarylength = 20 # 70 (default)
 
 # Multilingual
 defaultContentLanguage = "zh"
-disableLanguages = ["de", "nl"]
+disableLanguages = ["de", "nl", "en"]
 defaultContentLanguageInSubdir = false
 
 copyRight = "Copyright (c) 2020-2026 伊尼艾"
