@@ -21,7 +21,19 @@ params:
 
 软宝宝帮助已有软件项目的开发者、企业团队和代理机构整理软著申请材料。您可以上传项目文件夹或 ZIP，生成源代码文档；也可以结合软件截图，生成使用手册和设计文档。
 
-[开始生成代码文档](https://rzcode.vip/) · [先看操作步骤](/rzcodedocs/docs/quick_guides/how_sourcecodedocs/)
+视频演示
+<iframe
+  src="//player.bilibili.com/player.html?bvid=BV11tEE6rEFi"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="100%"
+  height="500">
+</iframe>
+
+[开始生成代码文档](https://rzcode.vip/)
 
 ## 我需要哪一种文档？
 

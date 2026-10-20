@@ -36,6 +36,18 @@ params:
 
 软宝宝（RZCode.vip）可以帮助你几分钟内完成整个过程。
 
+视频演示
+<iframe
+  src="//player.bilibili.com/player.html?bvid=BV1h1GD6ZETM"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="100%"
+  height="500">
+</iframe>
+
 ---
 
 # 支持哪些方式？

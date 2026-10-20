@@ -1,5 +1,5 @@
 ---
-title: "软著撤回流程步骤【图文详解】"
+title: "软著撤回流程步骤【图文视频详解】"
 description: "版权中心在线撤回申请全流程图文教程，包含身份验证、签章页生成与上传步骤，以及注意事项与常见问题，帮助在 1–3 个工作日内完成撤回。"
 summary: "详解软著撤回申请的完整操作流程，帮助你快速取消或修改申请。"
 lead: "申请有误需要撤回？了解版权中心在线撤回的完整流程，正常情况下 1～3 个工作日即可完成。"
@@ -19,12 +19,21 @@ params:
     robots: "index, follow"
 ---
 
-# 软著撤回流程步骤【图文详解】
-
 软件著作权申请提交后，如果发现申请信息填写错误、材料存在问题，或者需要重新申请，可以通过版权保护中心在线提交**撤回申请**。
 
 整个流程无需邮寄材料，正常情况下 **1～3 个工作日即可完成撤回**。
 
+视频演示
+<iframe
+  src="//player.bilibili.com/player.html?bvid=BV1LPh76pE9F"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="100%"
+  height="500">
+</iframe>
 ---
 
 ## 第一步：准备版权中心实名账号
