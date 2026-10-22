@@ -1,0 +1,18 @@
+# robots.txt for rzcode.vip/rzcodedocs
+# Allow search engines to crawl documentation and blog content
+
+User-agent: *
+Allow: /
+
+# Disallow unnecessary paths
+Disallow: /admin/
+Disallow: /home/
+Disallow: /login
+Disallow: /settings
+Disallow: /api/
+Disallow: /_default/
+Disallow: /_gen/
+Disallow: /resources/
+
+# Sitemaps for better indexing
+Sitemap: https://rzcode.vip/rzcodedocs/sitemap-docs.xml
