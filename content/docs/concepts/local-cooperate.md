@@ -24,9 +24,19 @@ params:
     robots: "index, follow"
 ---
 
-# 本地协作模式：源代码不离开本地也能申请软著
-
 如果您担心把项目源代码上传到第三方服务器，软宝宝提供了**本地协作模式**。在此模式下，源代码的分析过程完全在您的本地设备上完成，您只需要把分析后的结构化数据上传到软宝宝，即可继续生成软著申请所需的指南、申请表等材料。
+
+视频演示
+<iframe
+  src="//player.bilibili.com/player.html?bvid=BV1aHn26TEWS"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+  width="100%"
+  height="500">
+</iframe>
 
 ## 什么是本地协作模式？
 
