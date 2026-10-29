@@ -28,6 +28,10 @@ params:
 
 按照[源代码文档生成教程](/rzcodedocs/docs/quick_guides/how_sourcecodedocs/)上传文件夹或 ZIP，检查筛选结果并下载文档。
 
+## 想检查代码中的 AIGC 风险
+
+了解[AIGC 预检查指南](/rzcodedocs/docs/quick_guides/aigc_precheck/)，在提交软著申请前提前发现潜在 AIGC 特征与风险。
+
 ## 不方便上传源码
 
 阅读[本地协作模式说明](/rzcodedocs/docs/concepts/local-cooperate/)，了解本地代码分析、结构化结果上传及云端生成的分工。
