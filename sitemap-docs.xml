@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Documentation Root -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/index.xml</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+
+  <!-- Quick Guides -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/quick_guides/</loc>
+    <lastmod>2026-09-24</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/quick_guides/intro/</loc>
+    <lastmod>2026-09-24</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/quick_guides/how_sourcecodedocs/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/quick_guides/comparison/</loc>
+    <lastmod>2026-06-24</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/quick_guides/project_naming_guide/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/quick_guides/expedite/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+
+  <!-- Concepts & Features -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/topics/index.xml</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/footprints/</loc>
+    <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/local-cooperate/</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+
+  <!-- Pricing -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/00_overall/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/01_advanced-source-document/</loc>
+    <lastmod>2026-08-22</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/02_software-manual/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/03_no_screenshots_manual/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/04_design-document/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/05_soft-application-doc/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/concepts/pricing/06_expedite/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+
+  <!-- Policy & Templates -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/shenqing_zhanghao/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/gonglue_dengji/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/buzheng/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/mobanhua_buzheng/</loc>
+    <lastmod>2026-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/chehui_gongneng/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/shijianxian/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/ruanzhu_video/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/templates/qianzhangye/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+
+  <!-- Topics -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/topics/</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+
+  <!-- Resources -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/docs/resources/</loc>
+    <lastmod>2024-02-27</lastmod>
+  </url>
+
+  <!-- Blog Root -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+
+  <!-- Blog Releases -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260515/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260520/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260601/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260607/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260615/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260717/</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20260815/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/releases/20261012/</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+
+  <!-- Blog Techniques -->
+  <url>
+    <loc>https://rzcode.vip/rzcodedocs/blog/techniques/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+</urlset>
